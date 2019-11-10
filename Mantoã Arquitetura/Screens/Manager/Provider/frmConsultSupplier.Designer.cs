@@ -43,17 +43,11 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmConsultSupplier));
             this.panel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.cboTipoDePessoa = new System.Windows.Forms.ComboBox();
             this.dgvConsultarFornecedor = new System.Windows.Forms.DataGridView();
-            this.btnConsultar = new System.Windows.Forms.Button();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.lblNome = new System.Windows.Forms.Label();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.lblConsultarFornecedor = new System.Windows.Forms.Label();
             this.Coluna1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Coluna2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Coluna3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -66,6 +60,13 @@
             this.Coluna10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Coluna11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Coluna12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnConsultar = new System.Windows.Forms.Button();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.lblConsultarFornecedor = new System.Windows.Forms.Label();
             this.panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsultarFornecedor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
@@ -168,94 +169,6 @@
             this.dgvConsultarFornecedor.Name = "dgvConsultarFornecedor";
             this.dgvConsultarFornecedor.Size = new System.Drawing.Size(709, 341);
             this.dgvConsultarFornecedor.TabIndex = 651;
-            // 
-            // btnConsultar
-            // 
-            this.btnConsultar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnConsultar.BackColor = System.Drawing.Color.Transparent;
-            this.btnConsultar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConsultar.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.ForeColor = System.Drawing.Color.Black;
-            this.btnConsultar.Location = new System.Drawing.Point(590, 41);
-            this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(107, 30);
-            this.btnConsultar.TabIndex = 644;
-            this.btnConsultar.Text = "Consultar";
-            this.btnConsultar.UseVisualStyleBackColor = false;
-            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
-            // 
-            // txtNome
-            // 
-            this.txtNome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNome.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNome.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(63, 6);
-            this.txtNome.MaxLength = 32;
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(284, 23);
-            this.txtNome.TabIndex = 648;
-            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
-            // 
-            // lblNome
-            // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.ForeColor = System.Drawing.Color.Black;
-            this.lblNome.Location = new System.Drawing.Point(3, 8);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(54, 19);
-            this.lblNome.TabIndex = 647;
-            this.lblNome.Text = "Nome:";
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dataGridView3.BackgroundColor = System.Drawing.Color.Black;
-            this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(0, 33);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(709, 2);
-            this.dataGridView3.TabIndex = 625;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Black;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 1);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(709, 2);
-            this.dataGridView1.TabIndex = 598;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.Black;
-            this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(353, 3);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(2, 30);
-            this.dataGridView2.TabIndex = 597;
-            // 
-            // lblConsultarFornecedor
-            // 
-            this.lblConsultarFornecedor.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblConsultarFornecedor.AutoSize = true;
-            this.lblConsultarFornecedor.BackColor = System.Drawing.Color.Transparent;
-            this.lblConsultarFornecedor.Font = new System.Drawing.Font("Century", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConsultarFornecedor.ForeColor = System.Drawing.Color.Black;
-            this.lblConsultarFornecedor.Location = new System.Drawing.Point(217, 9);
-            this.lblConsultarFornecedor.Name = "lblConsultarFornecedor";
-            this.lblConsultarFornecedor.Size = new System.Drawing.Size(276, 28);
-            this.lblConsultarFornecedor.TabIndex = 571;
-            this.lblConsultarFornecedor.Text = "Consultar Fornecedor";
-            this.lblConsultarFornecedor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Coluna1
             // 
@@ -373,6 +286,94 @@
             this.Coluna12.ReadOnly = true;
             this.Coluna12.Width = 120;
             // 
+            // btnConsultar
+            // 
+            this.btnConsultar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnConsultar.BackColor = System.Drawing.Color.Transparent;
+            this.btnConsultar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConsultar.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultar.ForeColor = System.Drawing.Color.Black;
+            this.btnConsultar.Location = new System.Drawing.Point(590, 41);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(107, 30);
+            this.btnConsultar.TabIndex = 644;
+            this.btnConsultar.Text = "Consultar";
+            this.btnConsultar.UseVisualStyleBackColor = false;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
+            // 
+            // txtNome
+            // 
+            this.txtNome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNome.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNome.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Location = new System.Drawing.Point(63, 6);
+            this.txtNome.MaxLength = 32;
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(284, 23);
+            this.txtNome.TabIndex = 648;
+            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
+            // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = true;
+            this.lblNome.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.ForeColor = System.Drawing.Color.Black;
+            this.lblNome.Location = new System.Drawing.Point(3, 8);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(54, 19);
+            this.lblNome.TabIndex = 647;
+            this.lblNome.Text = "Nome:";
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.Black;
+            this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(0, 33);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(709, 2);
+            this.dataGridView3.TabIndex = 625;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Black;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 1);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(709, 2);
+            this.dataGridView1.TabIndex = 598;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.Black;
+            this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(353, 3);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(2, 30);
+            this.dataGridView2.TabIndex = 597;
+            // 
+            // lblConsultarFornecedor
+            // 
+            this.lblConsultarFornecedor.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblConsultarFornecedor.AutoSize = true;
+            this.lblConsultarFornecedor.BackColor = System.Drawing.Color.Transparent;
+            this.lblConsultarFornecedor.Font = new System.Drawing.Font("Century", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConsultarFornecedor.ForeColor = System.Drawing.Color.Black;
+            this.lblConsultarFornecedor.Location = new System.Drawing.Point(217, 9);
+            this.lblConsultarFornecedor.Name = "lblConsultarFornecedor";
+            this.lblConsultarFornecedor.Size = new System.Drawing.Size(276, 28);
+            this.lblConsultarFornecedor.TabIndex = 571;
+            this.lblConsultarFornecedor.Text = "Consultar Fornecedor";
+            this.lblConsultarFornecedor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frmConsultSupplier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -382,6 +383,7 @@
             this.Controls.Add(this.panel);
             this.Controls.Add(this.lblConsultarFornecedor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmConsultSupplier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consult Supplier";

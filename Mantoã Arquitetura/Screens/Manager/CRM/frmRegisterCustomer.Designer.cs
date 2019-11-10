@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegisterCustomer));
             this.panel = new System.Windows.Forms.Panel();
             this.mtxtCPF = new System.Windows.Forms.MaskedTextBox();
             this.lblCPF = new System.Windows.Forms.Label();
@@ -219,7 +220,7 @@
             this.mtxtTelefone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mtxtTelefone.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtxtTelefone.Location = new System.Drawing.Point(440, 196);
-            this.mtxtTelefone.Mask = "(999) 9999-9999";
+            this.mtxtTelefone.Mask = "(00) 0000-0000";
             this.mtxtTelefone.Name = "mtxtTelefone";
             this.mtxtTelefone.Size = new System.Drawing.Size(266, 23);
             this.mtxtTelefone.TabIndex = 637;
@@ -243,7 +244,7 @@
             this.mtxtCelular.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mtxtCelular.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtxtCelular.Location = new System.Drawing.Point(71, 196);
-            this.mtxtCelular.Mask = "(999) 99999-9999";
+            this.mtxtCelular.Mask = "(+55) (00) 00000-0000";
             this.mtxtCelular.Name = "mtxtCelular";
             this.mtxtCelular.Size = new System.Drawing.Size(277, 23);
             this.mtxtCelular.TabIndex = 635;
@@ -670,6 +671,7 @@
             this.Controls.Add(this.panel);
             this.Controls.Add(this.lblCadastrarCliente);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmRegisterCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register Customer";

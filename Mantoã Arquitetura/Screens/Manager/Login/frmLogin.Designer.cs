@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.imgFechar = new System.Windows.Forms.PictureBox();
             this.imgMinimizar = new System.Windows.Forms.PictureBox();
@@ -65,10 +66,10 @@
             // imgFechar
             // 
             this.imgFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgFechar.BackColor = System.Drawing.Color.Transparent;
+            this.imgFechar.BackColor = System.Drawing.Color.White;
             this.imgFechar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgFechar.Image = global::Mantoã_Arquitetura.Properties.Resources.Fechar;
-            this.imgFechar.Location = new System.Drawing.Point(368, 6);
+            this.imgFechar.Location = new System.Drawing.Point(363, 12);
             this.imgFechar.Name = "imgFechar";
             this.imgFechar.Size = new System.Drawing.Size(25, 25);
             this.imgFechar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -81,10 +82,10 @@
             // imgMinimizar
             // 
             this.imgMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgMinimizar.BackColor = System.Drawing.Color.Transparent;
+            this.imgMinimizar.BackColor = System.Drawing.Color.White;
             this.imgMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgMinimizar.Image = global::Mantoã_Arquitetura.Properties.Resources.Minimizar;
-            this.imgMinimizar.Location = new System.Drawing.Point(337, 6);
+            this.imgMinimizar.Location = new System.Drawing.Point(332, 12);
             this.imgMinimizar.Name = "imgMinimizar";
             this.imgMinimizar.Size = new System.Drawing.Size(25, 25);
             this.imgMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -182,9 +183,9 @@
             // imgLogotipo
             // 
             this.imgLogotipo.Image = global::Mantoã_Arquitetura.Properties.Resources.Logo_DSD_Novo;
-            this.imgLogotipo.Location = new System.Drawing.Point(12, 37);
+            this.imgLogotipo.Location = new System.Drawing.Point(12, 12);
             this.imgLogotipo.Name = "imgLogotipo";
-            this.imgLogotipo.Size = new System.Drawing.Size(376, 239);
+            this.imgLogotipo.Size = new System.Drawing.Size(376, 266);
             this.imgLogotipo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgLogotipo.TabIndex = 253;
             this.imgLogotipo.TabStop = false;
@@ -195,9 +196,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Mantoã_Arquitetura.Properties.Resources.Fundo;
             this.ClientSize = new System.Drawing.Size(400, 500);
+            this.Controls.Add(this.imgMinimizar);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.imgFechar);
-            this.Controls.Add(this.imgMinimizar);
             this.Controls.Add(this.lblRecuperarSenha);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.btnEntrar);
@@ -207,6 +208,7 @@
             this.Controls.Add(this.imgEmail);
             this.Controls.Add(this.imgLogotipo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

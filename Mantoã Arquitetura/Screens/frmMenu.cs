@@ -13,16 +13,16 @@ namespace Mantoã_Arquitetura.Screens
 {
     public partial class frmMenu : Form
     {
-        public static frmMenu Current;
-
-        Database.Entities.tb_employees emp;
-
         public frmMenu()
         {
             InitializeComponent();
             Current = this;
             CustomizeDesign();
         }
+
+        public static frmMenu Current;
+
+        Database.Entities.tb_employees emp;
 
         private void Horas_Tick(object sender, EventArgs e)
         {
@@ -307,9 +307,10 @@ namespace Mantoã_Arquitetura.Screens
             HideSubMenu();
         }
 
-        private void imgLogotipo_Click(object sender, EventArgs e)
+        private void btnEnviarEmail_Click(object sender, EventArgs e)
         {
-            panelContedor.Visible = false;
+            openContedor(new Manager.CRM.frmEmailSending());
+            HideSubMenu();
         }
     }
 }

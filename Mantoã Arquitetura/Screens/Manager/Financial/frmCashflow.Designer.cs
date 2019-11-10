@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCashflow));
             this.SuspendLayout();
             // 
             // frmCashflow
@@ -37,6 +38,7 @@
             this.BackgroundImage = global::Mantoã_Arquitetura.Properties.Resources.Fundo;
             this.ClientSize = new System.Drawing.Size(710, 459);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCashflow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cashflow";

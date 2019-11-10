@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmChangeCustomer));
             this.panel = new System.Windows.Forms.Panel();
+            this.mtxtTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.mtxtCelular = new System.Windows.Forms.MaskedTextBox();
             this.dataGridView16 = new System.Windows.Forms.DataGridView();
             this.nudId = new System.Windows.Forms.NumericUpDown();
             this.btnAlterar = new System.Windows.Forms.Button();
@@ -36,9 +39,7 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
             this.dataGridView15 = new System.Windows.Forms.DataGridView();
-            this.mtxtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.lblTelefone = new System.Windows.Forms.Label();
-            this.mtxtCelular = new System.Windows.Forms.MaskedTextBox();
             this.dataGridView12 = new System.Windows.Forms.DataGridView();
             this.dataGridView11 = new System.Windows.Forms.DataGridView();
             this.lblCelular = new System.Windows.Forms.Label();
@@ -97,6 +98,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel.BackColor = System.Drawing.Color.Transparent;
+            this.panel.Controls.Add(this.mtxtTelefone);
+            this.panel.Controls.Add(this.mtxtCelular);
             this.panel.Controls.Add(this.dataGridView16);
             this.panel.Controls.Add(this.nudId);
             this.panel.Controls.Add(this.btnAlterar);
@@ -104,9 +107,7 @@
             this.panel.Controls.Add(this.txtEmail);
             this.panel.Controls.Add(this.lblEmail);
             this.panel.Controls.Add(this.dataGridView15);
-            this.panel.Controls.Add(this.mtxtTelefone);
             this.panel.Controls.Add(this.lblTelefone);
-            this.panel.Controls.Add(this.mtxtCelular);
             this.panel.Controls.Add(this.dataGridView12);
             this.panel.Controls.Add(this.dataGridView11);
             this.panel.Controls.Add(this.lblCelular);
@@ -144,6 +145,30 @@
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(710, 418);
             this.panel.TabIndex = 568;
+            // 
+            // mtxtTelefone
+            // 
+            this.mtxtTelefone.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mtxtTelefone.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.mtxtTelefone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.mtxtTelefone.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtxtTelefone.Location = new System.Drawing.Point(440, 228);
+            this.mtxtTelefone.Mask = "(00) 0000-0000";
+            this.mtxtTelefone.Name = "mtxtTelefone";
+            this.mtxtTelefone.Size = new System.Drawing.Size(267, 23);
+            this.mtxtTelefone.TabIndex = 664;
+            // 
+            // mtxtCelular
+            // 
+            this.mtxtCelular.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mtxtCelular.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.mtxtCelular.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.mtxtCelular.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtxtCelular.Location = new System.Drawing.Point(71, 228);
+            this.mtxtCelular.Mask = "(+55) (00) 00000-0000";
+            this.mtxtCelular.Name = "mtxtCelular";
+            this.mtxtCelular.Size = new System.Drawing.Size(277, 23);
+            this.mtxtCelular.TabIndex = 663;
             // 
             // dataGridView16
             // 
@@ -227,18 +252,6 @@
             this.dataGridView15.Size = new System.Drawing.Size(709, 2);
             this.dataGridView15.TabIndex = 639;
             // 
-            // mtxtTelefone
-            // 
-            this.mtxtTelefone.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.mtxtTelefone.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.mtxtTelefone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.mtxtTelefone.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtxtTelefone.Location = new System.Drawing.Point(440, 228);
-            this.mtxtTelefone.Mask = "(999) 9999-9999";
-            this.mtxtTelefone.Name = "mtxtTelefone";
-            this.mtxtTelefone.Size = new System.Drawing.Size(267, 23);
-            this.mtxtTelefone.TabIndex = 637;
-            // 
             // lblTelefone
             // 
             this.lblTelefone.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -250,18 +263,6 @@
             this.lblTelefone.Size = new System.Drawing.Size(72, 19);
             this.lblTelefone.TabIndex = 636;
             this.lblTelefone.Text = "Telefone:";
-            // 
-            // mtxtCelular
-            // 
-            this.mtxtCelular.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.mtxtCelular.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.mtxtCelular.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.mtxtCelular.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtxtCelular.Location = new System.Drawing.Point(71, 228);
-            this.mtxtCelular.Mask = "(999) 99999-9999";
-            this.mtxtCelular.Name = "mtxtCelular";
-            this.mtxtCelular.Size = new System.Drawing.Size(277, 23);
-            this.mtxtCelular.TabIndex = 635;
             // 
             // dataGridView12
             // 
@@ -708,6 +709,7 @@
             this.Controls.Add(this.panel);
             this.Controls.Add(this.lblAlterarCliente);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmChangeCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Change Customer";
@@ -743,9 +745,7 @@
         public System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.DataGridView dataGridView15;
-        public System.Windows.Forms.MaskedTextBox mtxtTelefone;
         private System.Windows.Forms.Label lblTelefone;
-        public System.Windows.Forms.MaskedTextBox mtxtCelular;
         private System.Windows.Forms.DataGridView dataGridView12;
         private System.Windows.Forms.DataGridView dataGridView11;
         private System.Windows.Forms.Label lblCelular;
@@ -780,5 +780,7 @@
         protected System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblAlterarCliente;
+        public System.Windows.Forms.MaskedTextBox mtxtTelefone;
+        public System.Windows.Forms.MaskedTextBox mtxtCelular;
     }
 }

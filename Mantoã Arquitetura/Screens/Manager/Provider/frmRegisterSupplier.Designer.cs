@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegisterSupplier));
             this.panel = new System.Windows.Forms.Panel();
             this.lblCNPJ = new System.Windows.Forms.Label();
             this.lblCPF = new System.Windows.Forms.Label();
@@ -618,6 +619,7 @@
             this.Controls.Add(this.panel);
             this.Controls.Add(this.lblCadastrarFornecedor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmRegisterSupplier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register Supplier";

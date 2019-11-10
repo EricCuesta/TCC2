@@ -28,8 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmChangeEmployee1));
             this.imgVoltar = new System.Windows.Forms.PictureBox();
             this.panel = new System.Windows.Forms.Panel();
+            this.mtxtCódigoDoBanco = new System.Windows.Forms.MaskedTextBox();
+            this.mtxtAgênciaDoBanco = new System.Windows.Forms.MaskedTextBox();
             this.dtpDemissão = new System.Windows.Forms.DateTimePicker();
             this.dtpContratação = new System.Windows.Forms.DateTimePicker();
             this.cboTipoDePessoa = new System.Windows.Forms.ComboBox();
@@ -86,8 +89,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.lblAlterarFuncionário = new System.Windows.Forms.Label();
-            this.mtxtCódigoDoBanco = new System.Windows.Forms.MaskedTextBox();
-            this.mtxtAgênciaDoBanco = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgVoltar)).BeginInit();
             this.panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudSalárioBruto)).BeginInit();
@@ -192,6 +193,26 @@
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(710, 418);
             this.panel.TabIndex = 567;
+            // 
+            // mtxtCódigoDoBanco
+            // 
+            this.mtxtCódigoDoBanco.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtxtCódigoDoBanco.Location = new System.Drawing.Point(424, 134);
+            this.mtxtCódigoDoBanco.Mask = "000";
+            this.mtxtCódigoDoBanco.Name = "mtxtCódigoDoBanco";
+            this.mtxtCódigoDoBanco.Size = new System.Drawing.Size(283, 23);
+            this.mtxtCódigoDoBanco.TabIndex = 703;
+            this.mtxtCódigoDoBanco.ValidatingType = typeof(System.DateTime);
+            // 
+            // mtxtAgênciaDoBanco
+            // 
+            this.mtxtAgênciaDoBanco.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtxtAgênciaDoBanco.Location = new System.Drawing.Point(434, 166);
+            this.mtxtAgênciaDoBanco.Mask = "00000-0";
+            this.mtxtAgênciaDoBanco.Name = "mtxtAgênciaDoBanco";
+            this.mtxtAgênciaDoBanco.Size = new System.Drawing.Size(273, 23);
+            this.mtxtAgênciaDoBanco.TabIndex = 702;
+            this.mtxtAgênciaDoBanco.ValidatingType = typeof(System.DateTime);
             // 
             // dtpDemissão
             // 
@@ -836,26 +857,6 @@
             this.lblAlterarFuncionário.Text = "Alterar Funcionário";
             this.lblAlterarFuncionário.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // mtxtCódigoDoBanco
-            // 
-            this.mtxtCódigoDoBanco.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtxtCódigoDoBanco.Location = new System.Drawing.Point(424, 134);
-            this.mtxtCódigoDoBanco.Mask = "000";
-            this.mtxtCódigoDoBanco.Name = "mtxtCódigoDoBanco";
-            this.mtxtCódigoDoBanco.Size = new System.Drawing.Size(283, 23);
-            this.mtxtCódigoDoBanco.TabIndex = 703;
-            this.mtxtCódigoDoBanco.ValidatingType = typeof(System.DateTime);
-            // 
-            // mtxtAgênciaDoBanco
-            // 
-            this.mtxtAgênciaDoBanco.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtxtAgênciaDoBanco.Location = new System.Drawing.Point(434, 166);
-            this.mtxtAgênciaDoBanco.Mask = "00000-0";
-            this.mtxtAgênciaDoBanco.Name = "mtxtAgênciaDoBanco";
-            this.mtxtAgênciaDoBanco.Size = new System.Drawing.Size(273, 23);
-            this.mtxtAgênciaDoBanco.TabIndex = 702;
-            this.mtxtAgênciaDoBanco.ValidatingType = typeof(System.DateTime);
-            // 
             // frmChangeEmployee1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -866,6 +867,7 @@
             this.Controls.Add(this.panel);
             this.Controls.Add(this.lblAlterarFuncionário);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmChangeEmployee1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Change Employee1";

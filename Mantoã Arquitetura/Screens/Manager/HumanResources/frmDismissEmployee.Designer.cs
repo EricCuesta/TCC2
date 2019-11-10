@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDismissEmployee));
             this.panel = new System.Windows.Forms.Panel();
+            this.mtxtTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.mtxtCelular = new System.Windows.Forms.MaskedTextBox();
             this.dataGridView17 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.chkCRM = new System.Windows.Forms.CheckBox();
@@ -50,9 +53,7 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.dataGridView15 = new System.Windows.Forms.DataGridView();
             this.dataGridView14 = new System.Windows.Forms.DataGridView();
-            this.mtxtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.lblTelefone = new System.Windows.Forms.Label();
-            this.mtxtCelular = new System.Windows.Forms.MaskedTextBox();
             this.dataGridView12 = new System.Windows.Forms.DataGridView();
             this.dataGridView11 = new System.Windows.Forms.DataGridView();
             this.lblCelular = new System.Windows.Forms.Label();
@@ -117,6 +118,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel.BackColor = System.Drawing.Color.Transparent;
+            this.panel.Controls.Add(this.mtxtTelefone);
+            this.panel.Controls.Add(this.mtxtCelular);
             this.panel.Controls.Add(this.dataGridView17);
             this.panel.Controls.Add(this.panel1);
             this.panel.Controls.Add(this.lblID);
@@ -133,9 +136,7 @@
             this.panel.Controls.Add(this.lblEmail);
             this.panel.Controls.Add(this.dataGridView15);
             this.panel.Controls.Add(this.dataGridView14);
-            this.panel.Controls.Add(this.mtxtTelefone);
             this.panel.Controls.Add(this.lblTelefone);
-            this.panel.Controls.Add(this.mtxtCelular);
             this.panel.Controls.Add(this.dataGridView12);
             this.panel.Controls.Add(this.dataGridView11);
             this.panel.Controls.Add(this.lblCelular);
@@ -174,6 +175,32 @@
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(711, 418);
             this.panel.TabIndex = 650;
+            // 
+            // mtxtTelefone
+            // 
+            this.mtxtTelefone.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mtxtTelefone.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.mtxtTelefone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.mtxtTelefone.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtxtTelefone.Location = new System.Drawing.Point(439, 227);
+            this.mtxtTelefone.Mask = "(00) 0000-0000";
+            this.mtxtTelefone.Name = "mtxtTelefone";
+            this.mtxtTelefone.ReadOnly = true;
+            this.mtxtTelefone.Size = new System.Drawing.Size(269, 23);
+            this.mtxtTelefone.TabIndex = 701;
+            // 
+            // mtxtCelular
+            // 
+            this.mtxtCelular.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mtxtCelular.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.mtxtCelular.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.mtxtCelular.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtxtCelular.Location = new System.Drawing.Point(69, 227);
+            this.mtxtCelular.Mask = "(+55) (00) 00000-0000";
+            this.mtxtCelular.Name = "mtxtCelular";
+            this.mtxtCelular.ReadOnly = true;
+            this.mtxtCelular.Size = new System.Drawing.Size(278, 23);
+            this.mtxtCelular.TabIndex = 700;
             // 
             // dataGridView17
             // 
@@ -287,7 +314,7 @@
             this.mtxtCEP.Mask = "00000-000";
             this.mtxtCEP.Name = "mtxtCEP";
             this.mtxtCEP.ReadOnly = true;
-            this.mtxtCEP.Size = new System.Drawing.Size(299, 23);
+            this.mtxtCEP.Size = new System.Drawing.Size(301, 23);
             this.mtxtCEP.TabIndex = 618;
             // 
             // lblCEP
@@ -364,9 +391,8 @@
             this.txtSenha.MaxLength = 20;
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.ReadOnly = true;
-            this.txtSenha.Size = new System.Drawing.Size(284, 23);
+            this.txtSenha.Size = new System.Drawing.Size(286, 23);
             this.txtSenha.TabIndex = 643;
-            this.txtSenha.UseSystemPasswordChar = true;
             // 
             // lblSenha
             // 
@@ -427,19 +453,6 @@
             this.dataGridView14.Size = new System.Drawing.Size(2, 30);
             this.dataGridView14.TabIndex = 638;
             // 
-            // mtxtTelefone
-            // 
-            this.mtxtTelefone.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.mtxtTelefone.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.mtxtTelefone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.mtxtTelefone.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtxtTelefone.Location = new System.Drawing.Point(439, 227);
-            this.mtxtTelefone.Mask = "(999) 9999-9999";
-            this.mtxtTelefone.Name = "mtxtTelefone";
-            this.mtxtTelefone.ReadOnly = true;
-            this.mtxtTelefone.Size = new System.Drawing.Size(267, 23);
-            this.mtxtTelefone.TabIndex = 637;
-            // 
             // lblTelefone
             // 
             this.lblTelefone.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -451,19 +464,6 @@
             this.lblTelefone.Size = new System.Drawing.Size(72, 19);
             this.lblTelefone.TabIndex = 636;
             this.lblTelefone.Text = "Telefone:";
-            // 
-            // mtxtCelular
-            // 
-            this.mtxtCelular.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.mtxtCelular.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.mtxtCelular.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.mtxtCelular.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtxtCelular.Location = new System.Drawing.Point(69, 227);
-            this.mtxtCelular.Mask = "(999) 99999-9999";
-            this.mtxtCelular.Name = "mtxtCelular";
-            this.mtxtCelular.ReadOnly = true;
-            this.mtxtCelular.Size = new System.Drawing.Size(278, 23);
-            this.mtxtCelular.TabIndex = 635;
             // 
             // dataGridView12
             // 
@@ -563,7 +563,7 @@
             this.txtComplemento.MaxLength = 128;
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.ReadOnly = true;
-            this.txtComplemento.Size = new System.Drawing.Size(229, 23);
+            this.txtComplemento.Size = new System.Drawing.Size(231, 23);
             this.txtComplemento.TabIndex = 624;
             // 
             // lblComplemento
@@ -677,7 +677,7 @@
             this.dtpNascimento.Location = new System.Drawing.Point(581, 101);
             this.dtpNascimento.MaxDate = new System.DateTime(2001, 1, 1, 0, 0, 0, 0);
             this.dtpNascimento.Name = "dtpNascimento";
-            this.dtpNascimento.Size = new System.Drawing.Size(125, 23);
+            this.dtpNascimento.Size = new System.Drawing.Size(128, 23);
             this.dtpNascimento.TabIndex = 612;
             this.dtpNascimento.Value = new System.DateTime(2001, 1, 1, 0, 0, 0, 0);
             // 
@@ -776,7 +776,7 @@
             this.mtxtRG.Mask = "00.000.000-0";
             this.mtxtRG.Name = "mtxtRG";
             this.mtxtRG.ReadOnly = true;
-            this.mtxtRG.Size = new System.Drawing.Size(306, 23);
+            this.mtxtRG.Size = new System.Drawing.Size(308, 23);
             this.mtxtRG.TabIndex = 603;
             // 
             // lblRG
@@ -859,7 +859,7 @@
             this.txtSobrenome.MaxLength = 32;
             this.txtSobrenome.Name = "txtSobrenome";
             this.txtSobrenome.ReadOnly = true;
-            this.txtSobrenome.Size = new System.Drawing.Size(247, 23);
+            this.txtSobrenome.Size = new System.Drawing.Size(250, 23);
             this.txtSobrenome.TabIndex = 568;
             // 
             // lblSobrenome
@@ -923,6 +923,7 @@
             this.Controls.Add(this.panel);
             this.Controls.Add(this.lblDemitirFuncionário);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmDismissEmployee";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dismiss Employee";
@@ -978,9 +979,7 @@
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.DataGridView dataGridView15;
         private System.Windows.Forms.DataGridView dataGridView14;
-        public System.Windows.Forms.MaskedTextBox mtxtTelefone;
         private System.Windows.Forms.Label lblTelefone;
-        public System.Windows.Forms.MaskedTextBox mtxtCelular;
         private System.Windows.Forms.DataGridView dataGridView12;
         private System.Windows.Forms.DataGridView dataGridView11;
         private System.Windows.Forms.Label lblCelular;
@@ -1016,5 +1015,7 @@
         public System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblDemitirFuncionário;
+        public System.Windows.Forms.MaskedTextBox mtxtTelefone;
+        public System.Windows.Forms.MaskedTextBox mtxtCelular;
     }
 }

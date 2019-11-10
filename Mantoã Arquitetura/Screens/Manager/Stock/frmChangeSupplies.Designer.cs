@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmChangeSupplies));
             this.panel = new System.Windows.Forms.Panel();
             this.txtLocalDoEstoque = new System.Windows.Forms.TextBox();
             this.lblLocalDoStock = new System.Windows.Forms.Label();
@@ -343,6 +344,7 @@
             this.Controls.Add(this.panel);
             this.Controls.Add(this.lblAlterarSuprimento);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmChangeSupplies";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Change Supplies";

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             this.panelTítulo = new System.Windows.Forms.Panel();
             this.lblhrs = new System.Windows.Forms.Label();
             this.lblUsuário = new System.Windows.Forms.Label();
@@ -36,6 +37,8 @@
             this.imgFechar = new System.Windows.Forms.PictureBox();
             this.MenuVertical = new System.Windows.Forms.Panel();
             this.panelSubMenuCRM = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.btnEnviarEmail = new System.Windows.Forms.Button();
             this.panel40 = new System.Windows.Forms.Panel();
             this.panel39 = new System.Windows.Forms.Panel();
             this.panel38 = new System.Windows.Forms.Panel();
@@ -142,11 +145,11 @@
             // lblhrs
             // 
             this.lblhrs.BackColor = System.Drawing.Color.Transparent;
-            this.lblhrs.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold);
+            this.lblhrs.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhrs.ForeColor = System.Drawing.Color.Lime;
-            this.lblhrs.Location = new System.Drawing.Point(534, 18);
+            this.lblhrs.Location = new System.Drawing.Point(505, 21);
             this.lblhrs.Name = "lblhrs";
-            this.lblhrs.Size = new System.Drawing.Size(109, 20);
+            this.lblhrs.Size = new System.Drawing.Size(138, 20);
             this.lblhrs.TabIndex = 490;
             this.lblhrs.Text = "Hrs: __:__:__";
             this.lblhrs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -154,11 +157,11 @@
             // lblUsuário
             // 
             this.lblUsuário.BackColor = System.Drawing.Color.Transparent;
-            this.lblUsuário.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold);
+            this.lblUsuário.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuário.ForeColor = System.Drawing.Color.Lime;
-            this.lblUsuário.Location = new System.Drawing.Point(3, 18);
+            this.lblUsuário.Location = new System.Drawing.Point(3, 21);
             this.lblUsuário.Name = "lblUsuário";
-            this.lblUsuário.Size = new System.Drawing.Size(522, 20);
+            this.lblUsuário.Size = new System.Drawing.Size(496, 20);
             this.lblUsuário.TabIndex = 489;
             this.lblUsuário.Text = "Usuário:";
             this.lblUsuário.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -220,6 +223,8 @@
             // panelSubMenuCRM
             // 
             this.panelSubMenuCRM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.panelSubMenuCRM.Controls.Add(this.panel7);
+            this.panelSubMenuCRM.Controls.Add(this.btnEnviarEmail);
             this.panelSubMenuCRM.Controls.Add(this.panel40);
             this.panelSubMenuCRM.Controls.Add(this.panel39);
             this.panelSubMenuCRM.Controls.Add(this.panel38);
@@ -229,14 +234,42 @@
             this.panelSubMenuCRM.Controls.Add(this.btnConsultarCliente);
             this.panelSubMenuCRM.Controls.Add(this.btnCadastrarCliente);
             this.panelSubMenuCRM.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuCRM.Location = new System.Drawing.Point(0, 963);
+            this.panelSubMenuCRM.Location = new System.Drawing.Point(0, 933);
             this.panelSubMenuCRM.Name = "panelSubMenuCRM";
-            this.panelSubMenuCRM.Size = new System.Drawing.Size(223, 130);
+            this.panelSubMenuCRM.Size = new System.Drawing.Size(223, 164);
             this.panelSubMenuCRM.TabIndex = 26;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.panel7.Location = new System.Drawing.Point(22, 132);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(5, 26);
+            this.panel7.TabIndex = 18;
+            // 
+            // btnEnviarEmail
+            // 
+            this.btnEnviarEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnEnviarEmail.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEnviarEmail.FlatAppearance.BorderSize = 0;
+            this.btnEnviarEmail.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnEnviarEmail.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnEnviarEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEnviarEmail.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviarEmail.ForeColor = System.Drawing.Color.White;
+            this.btnEnviarEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEnviarEmail.Location = new System.Drawing.Point(25, 132);
+            this.btnEnviarEmail.Name = "btnEnviarEmail";
+            this.btnEnviarEmail.Size = new System.Drawing.Size(215, 26);
+            this.btnEnviarEmail.TabIndex = 17;
+            this.btnEnviarEmail.Text = "Enviar E-mail";
+            this.btnEnviarEmail.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEnviarEmail.UseVisualStyleBackColor = false;
+            this.btnEnviarEmail.Click += new System.EventHandler(this.btnEnviarEmail_Click);
             // 
             // panel40
             // 
-            this.panel40.BackColor = System.Drawing.Color.Lime;
+            this.panel40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel40.Location = new System.Drawing.Point(22, 4);
             this.panel40.Name = "panel40";
             this.panel40.Size = new System.Drawing.Size(5, 26);
@@ -244,7 +277,7 @@
             // 
             // panel39
             // 
-            this.panel39.BackColor = System.Drawing.Color.Lime;
+            this.panel39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel39.Location = new System.Drawing.Point(22, 36);
             this.panel39.Name = "panel39";
             this.panel39.Size = new System.Drawing.Size(5, 26);
@@ -252,7 +285,7 @@
             // 
             // panel38
             // 
-            this.panel38.BackColor = System.Drawing.Color.Lime;
+            this.panel38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel38.Location = new System.Drawing.Point(22, 68);
             this.panel38.Name = "panel38";
             this.panel38.Size = new System.Drawing.Size(5, 26);
@@ -260,7 +293,7 @@
             // 
             // panel37
             // 
-            this.panel37.BackColor = System.Drawing.Color.Lime;
+            this.panel37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel37.Location = new System.Drawing.Point(22, 100);
             this.panel37.Name = "panel37";
             this.panel37.Size = new System.Drawing.Size(5, 26);
@@ -351,7 +384,7 @@
             this.panelCRM.Controls.Add(this.btnCRM);
             this.panelCRM.Controls.Add(this.panel19);
             this.panelCRM.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelCRM.Location = new System.Drawing.Point(0, 931);
+            this.panelCRM.Location = new System.Drawing.Point(0, 901);
             this.panelCRM.Name = "panelCRM";
             this.panelCRM.Size = new System.Drawing.Size(223, 32);
             this.panelCRM.TabIndex = 25;
@@ -377,7 +410,7 @@
             // 
             // panel19
             // 
-            this.panel19.BackColor = System.Drawing.Color.Lime;
+            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel19.Location = new System.Drawing.Point(0, 2);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(5, 28);
@@ -395,14 +428,14 @@
             this.panelSubMenuEstoque.Controls.Add(this.panel36);
             this.panelSubMenuEstoque.Controls.Add(this.btnCadastrarSuprimentos);
             this.panelSubMenuEstoque.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuEstoque.Location = new System.Drawing.Point(0, 801);
+            this.panelSubMenuEstoque.Location = new System.Drawing.Point(0, 771);
             this.panelSubMenuEstoque.Name = "panelSubMenuEstoque";
             this.panelSubMenuEstoque.Size = new System.Drawing.Size(223, 130);
             this.panelSubMenuEstoque.TabIndex = 24;
             // 
             // panel33
             // 
-            this.panel33.BackColor = System.Drawing.Color.Lime;
+            this.panel33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel33.Location = new System.Drawing.Point(22, 102);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(5, 26);
@@ -430,7 +463,7 @@
             // 
             // panel34
             // 
-            this.panel34.BackColor = System.Drawing.Color.Lime;
+            this.panel34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel34.Location = new System.Drawing.Point(22, 70);
             this.panel34.Name = "panel34";
             this.panel34.Size = new System.Drawing.Size(5, 26);
@@ -438,7 +471,7 @@
             // 
             // panel35
             // 
-            this.panel35.BackColor = System.Drawing.Color.Lime;
+            this.panel35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel35.Location = new System.Drawing.Point(22, 38);
             this.panel35.Name = "panel35";
             this.panel35.Size = new System.Drawing.Size(5, 26);
@@ -486,7 +519,7 @@
             // 
             // panel36
             // 
-            this.panel36.BackColor = System.Drawing.Color.Lime;
+            this.panel36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel36.Location = new System.Drawing.Point(22, 6);
             this.panel36.Name = "panel36";
             this.panel36.Size = new System.Drawing.Size(5, 26);
@@ -517,7 +550,7 @@
             this.panelEstoque.Controls.Add(this.btnEstoque);
             this.panelEstoque.Controls.Add(this.panel18);
             this.panelEstoque.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelEstoque.Location = new System.Drawing.Point(0, 769);
+            this.panelEstoque.Location = new System.Drawing.Point(0, 739);
             this.panelEstoque.Name = "panelEstoque";
             this.panelEstoque.Size = new System.Drawing.Size(223, 32);
             this.panelEstoque.TabIndex = 23;
@@ -543,7 +576,7 @@
             // 
             // panel18
             // 
-            this.panel18.BackColor = System.Drawing.Color.Lime;
+            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel18.Location = new System.Drawing.Point(0, 2);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(5, 28);
@@ -561,14 +594,14 @@
             this.panelSubMenuFornecedor.Controls.Add(this.panel44);
             this.panelSubMenuFornecedor.Controls.Add(this.btnCadastrarFornecedor);
             this.panelSubMenuFornecedor.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuFornecedor.Location = new System.Drawing.Point(0, 639);
+            this.panelSubMenuFornecedor.Location = new System.Drawing.Point(0, 609);
             this.panelSubMenuFornecedor.Name = "panelSubMenuFornecedor";
             this.panelSubMenuFornecedor.Size = new System.Drawing.Size(223, 130);
             this.panelSubMenuFornecedor.TabIndex = 28;
             // 
             // panel41
             // 
-            this.panel41.BackColor = System.Drawing.Color.Lime;
+            this.panel41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel41.Location = new System.Drawing.Point(22, 102);
             this.panel41.Name = "panel41";
             this.panel41.Size = new System.Drawing.Size(5, 26);
@@ -596,7 +629,7 @@
             // 
             // panel42
             // 
-            this.panel42.BackColor = System.Drawing.Color.Lime;
+            this.panel42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel42.Location = new System.Drawing.Point(22, 70);
             this.panel42.Name = "panel42";
             this.panel42.Size = new System.Drawing.Size(5, 26);
@@ -604,7 +637,7 @@
             // 
             // panel43
             // 
-            this.panel43.BackColor = System.Drawing.Color.Lime;
+            this.panel43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel43.Location = new System.Drawing.Point(22, 38);
             this.panel43.Name = "panel43";
             this.panel43.Size = new System.Drawing.Size(5, 26);
@@ -652,7 +685,7 @@
             // 
             // panel44
             // 
-            this.panel44.BackColor = System.Drawing.Color.Lime;
+            this.panel44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel44.Location = new System.Drawing.Point(22, 6);
             this.panel44.Name = "panel44";
             this.panel44.Size = new System.Drawing.Size(5, 26);
@@ -683,7 +716,7 @@
             this.panelFornecedor.Controls.Add(this.btnFornecedor);
             this.panelFornecedor.Controls.Add(this.panel10);
             this.panelFornecedor.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFornecedor.Location = new System.Drawing.Point(0, 607);
+            this.panelFornecedor.Location = new System.Drawing.Point(0, 577);
             this.panelFornecedor.Name = "panelFornecedor";
             this.panelFornecedor.Size = new System.Drawing.Size(223, 32);
             this.panelFornecedor.TabIndex = 27;
@@ -709,7 +742,7 @@
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.Color.Lime;
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel10.Location = new System.Drawing.Point(0, 2);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(5, 28);
@@ -729,14 +762,14 @@
             this.panelSubMenuFinanceiro.Controls.Add(this.btnDeletarConta);
             this.panelSubMenuFinanceiro.Controls.Add(this.btnConsultarConta);
             this.panelSubMenuFinanceiro.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuFinanceiro.Location = new System.Drawing.Point(0, 444);
+            this.panelSubMenuFinanceiro.Location = new System.Drawing.Point(0, 414);
             this.panelSubMenuFinanceiro.Name = "panelSubMenuFinanceiro";
             this.panelSubMenuFinanceiro.Size = new System.Drawing.Size(223, 163);
             this.panelSubMenuFinanceiro.TabIndex = 22;
             // 
             // panel16
             // 
-            this.panel16.BackColor = System.Drawing.Color.Lime;
+            this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel16.Location = new System.Drawing.Point(22, 134);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(5, 25);
@@ -744,7 +777,7 @@
             // 
             // panel17
             // 
-            this.panel17.BackColor = System.Drawing.Color.Lime;
+            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel17.Location = new System.Drawing.Point(22, 100);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(5, 26);
@@ -752,7 +785,7 @@
             // 
             // panel11
             // 
-            this.panel11.BackColor = System.Drawing.Color.Lime;
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel11.Location = new System.Drawing.Point(22, 68);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(5, 26);
@@ -760,7 +793,7 @@
             // 
             // panel12
             // 
-            this.panel12.BackColor = System.Drawing.Color.Lime;
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel12.Location = new System.Drawing.Point(22, 36);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(5, 26);
@@ -768,7 +801,7 @@
             // 
             // panel13
             // 
-            this.panel13.BackColor = System.Drawing.Color.Lime;
+            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel13.Location = new System.Drawing.Point(22, 4);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(5, 26);
@@ -879,7 +912,7 @@
             this.panelFinanceiro.Controls.Add(this.btnFinanceiro);
             this.panelFinanceiro.Controls.Add(this.panel8);
             this.panelFinanceiro.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFinanceiro.Location = new System.Drawing.Point(0, 412);
+            this.panelFinanceiro.Location = new System.Drawing.Point(0, 382);
             this.panelFinanceiro.Name = "panelFinanceiro";
             this.panelFinanceiro.Size = new System.Drawing.Size(223, 32);
             this.panelFinanceiro.TabIndex = 21;
@@ -905,7 +938,7 @@
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.Lime;
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel8.Location = new System.Drawing.Point(0, 2);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(5, 28);
@@ -916,14 +949,14 @@
             this.panelCartãoDePonto.Controls.Add(this.panel22);
             this.panelCartãoDePonto.Controls.Add(this.btnCartãoDePonto);
             this.panelCartãoDePonto.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelCartãoDePonto.Location = new System.Drawing.Point(0, 380);
+            this.panelCartãoDePonto.Location = new System.Drawing.Point(0, 350);
             this.panelCartãoDePonto.Name = "panelCartãoDePonto";
             this.panelCartãoDePonto.Size = new System.Drawing.Size(223, 32);
             this.panelCartãoDePonto.TabIndex = 29;
             // 
             // panel22
             // 
-            this.panel22.BackColor = System.Drawing.Color.Lime;
+            this.panel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel22.Location = new System.Drawing.Point(22, 3);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(5, 26);
@@ -965,14 +998,14 @@
             this.panelSubMenuRecursosHumanos.Controls.Add(this.btnFolhaDePagamento);
             this.panelSubMenuRecursosHumanos.Controls.Add(this.btnCadastrarFuncionário);
             this.panelSubMenuRecursosHumanos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuRecursosHumanos.Location = new System.Drawing.Point(0, 182);
+            this.panelSubMenuRecursosHumanos.Location = new System.Drawing.Point(0, 152);
             this.panelSubMenuRecursosHumanos.Name = "panelSubMenuRecursosHumanos";
             this.panelSubMenuRecursosHumanos.Size = new System.Drawing.Size(223, 198);
             this.panelSubMenuRecursosHumanos.TabIndex = 20;
             // 
             // panel14
             // 
-            this.panel14.BackColor = System.Drawing.Color.Lime;
+            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel14.Location = new System.Drawing.Point(22, 166);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(5, 26);
@@ -1000,7 +1033,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.Lime;
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel6.Location = new System.Drawing.Point(22, 134);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(5, 26);
@@ -1008,7 +1041,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.Lime;
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel5.Location = new System.Drawing.Point(22, 102);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(5, 26);
@@ -1036,7 +1069,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Lime;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel4.Location = new System.Drawing.Point(22, 70);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(5, 26);
@@ -1044,7 +1077,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Lime;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel3.Location = new System.Drawing.Point(22, 38);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(5, 26);
@@ -1092,7 +1125,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Lime;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel2.Location = new System.Drawing.Point(22, 6);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(5, 26);
@@ -1143,7 +1176,7 @@
             this.panelRecursosHumanos.Controls.Add(this.btnRecursosHumanos);
             this.panelRecursosHumanos.Controls.Add(this.panel1);
             this.panelRecursosHumanos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelRecursosHumanos.Location = new System.Drawing.Point(0, 150);
+            this.panelRecursosHumanos.Location = new System.Drawing.Point(0, 120);
             this.panelRecursosHumanos.Name = "panelRecursosHumanos";
             this.panelRecursosHumanos.Size = new System.Drawing.Size(223, 32);
             this.panelRecursosHumanos.TabIndex = 19;
@@ -1169,7 +1202,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Lime;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel1.Location = new System.Drawing.Point(0, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(5, 28);
@@ -1182,11 +1215,10 @@
             this.imgLogotipo.Image = global::Mantoã_Arquitetura.Properties.Resources.Logo_DSD_Novo;
             this.imgLogotipo.Location = new System.Drawing.Point(0, 0);
             this.imgLogotipo.Name = "imgLogotipo";
-            this.imgLogotipo.Size = new System.Drawing.Size(223, 150);
+            this.imgLogotipo.Size = new System.Drawing.Size(223, 120);
             this.imgLogotipo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgLogotipo.TabIndex = 18;
             this.imgLogotipo.TabStop = false;
-            this.imgLogotipo.Click += new System.EventHandler(this.imgLogotipo_Click);
             // 
             // panelContedor
             // 
@@ -1214,6 +1246,7 @@
             this.Controls.Add(this.panelTítulo);
             this.Controls.Add(this.MenuVertical);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manager Menu";
@@ -1317,5 +1350,7 @@
         private System.Windows.Forms.PictureBox imgLogotipo;
         private System.Windows.Forms.Panel panelCartãoDePonto;
         private System.Windows.Forms.Timer Horas;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Button btnEnviarEmail;
     }
 }

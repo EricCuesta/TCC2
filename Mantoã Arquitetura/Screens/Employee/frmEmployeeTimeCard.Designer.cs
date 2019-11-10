@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEmployeeTimeCard));
             this.panel = new System.Windows.Forms.Panel();
             this.btnBaterPonto = new System.Windows.Forms.Button();
             this.lblTérmino = new System.Windows.Forms.Label();
-            this.lblSaída1 = new System.Windows.Forms.Label();
+            this.lbTérmino1 = new System.Windows.Forms.Label();
             this.lblTérminoDoIntervalo = new System.Windows.Forms.Label();
-            this.lblSaídaDoIntervalo1 = new System.Windows.Forms.Label();
+            this.lblTérminoDoIntervalo1 = new System.Windows.Forms.Label();
             this.lblInícioDoIntervalo = new System.Windows.Forms.Label();
-            this.lblEntradaDoIntervalo1 = new System.Windows.Forms.Label();
-            this.lblHorárioData = new System.Windows.Forms.Label();
+            this.lblInícioDoIntervalo1 = new System.Windows.Forms.Label();
             this.lblInício = new System.Windows.Forms.Label();
-            this.lblEntrada1 = new System.Windows.Forms.Label();
+            this.lblInício1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lblCartãoDePonto = new System.Windows.Forms.Label();
             this.DataHora = new System.Windows.Forms.Timer(this.components);
@@ -55,14 +55,13 @@
             this.panel.BackColor = System.Drawing.Color.Transparent;
             this.panel.Controls.Add(this.btnBaterPonto);
             this.panel.Controls.Add(this.lblTérmino);
-            this.panel.Controls.Add(this.lblSaída1);
+            this.panel.Controls.Add(this.lbTérmino1);
             this.panel.Controls.Add(this.lblTérminoDoIntervalo);
-            this.panel.Controls.Add(this.lblSaídaDoIntervalo1);
+            this.panel.Controls.Add(this.lblTérminoDoIntervalo1);
             this.panel.Controls.Add(this.lblInícioDoIntervalo);
-            this.panel.Controls.Add(this.lblEntradaDoIntervalo1);
-            this.panel.Controls.Add(this.lblHorárioData);
+            this.panel.Controls.Add(this.lblInícioDoIntervalo1);
             this.panel.Controls.Add(this.lblInício);
-            this.panel.Controls.Add(this.lblEntrada1);
+            this.panel.Controls.Add(this.lblInício1);
             this.panel.Controls.Add(this.dataGridView1);
             this.panel.Location = new System.Drawing.Point(0, 41);
             this.panel.Name = "panel";
@@ -91,24 +90,24 @@
             this.lblTérmino.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTérmino.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTérmino.ForeColor = System.Drawing.Color.Black;
-            this.lblTérmino.Location = new System.Drawing.Point(449, 248);
+            this.lblTérmino.Location = new System.Drawing.Point(596, 147);
             this.lblTérmino.Name = "lblTérmino";
-            this.lblTérmino.Size = new System.Drawing.Size(230, 28);
+            this.lblTérmino.Size = new System.Drawing.Size(102, 28);
             this.lblTérmino.TabIndex = 607;
-            this.lblTérmino.Text = "_ _ / _ _ / _ _ _ _ 00:00";
+            this.lblTérmino.Text = "00:00:00";
             this.lblTérmino.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblSaída1
+            // lbTérmino1
             // 
-            this.lblSaída1.AutoSize = true;
-            this.lblSaída1.BackColor = System.Drawing.Color.Transparent;
-            this.lblSaída1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSaída1.ForeColor = System.Drawing.Color.Black;
-            this.lblSaída1.Location = new System.Drawing.Point(531, 280);
-            this.lblSaída1.Name = "lblSaída1";
-            this.lblSaída1.Size = new System.Drawing.Size(65, 19);
-            this.lblSaída1.TabIndex = 606;
-            this.lblSaída1.Text = "Término";
+            this.lbTérmino1.AutoSize = true;
+            this.lbTérmino1.BackColor = System.Drawing.Color.Transparent;
+            this.lbTérmino1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTérmino1.ForeColor = System.Drawing.Color.Black;
+            this.lbTérmino1.Location = new System.Drawing.Point(615, 179);
+            this.lbTérmino1.Name = "lbTérmino1";
+            this.lbTérmino1.Size = new System.Drawing.Size(65, 19);
+            this.lbTérmino1.TabIndex = 606;
+            this.lbTérmino1.Text = "Término";
             // 
             // lblTérminoDoIntervalo
             // 
@@ -117,24 +116,24 @@
             this.lblTérminoDoIntervalo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTérminoDoIntervalo.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTérminoDoIntervalo.ForeColor = System.Drawing.Color.Black;
-            this.lblTérminoDoIntervalo.Location = new System.Drawing.Point(449, 82);
+            this.lblTérminoDoIntervalo.Location = new System.Drawing.Point(404, 147);
             this.lblTérminoDoIntervalo.Name = "lblTérminoDoIntervalo";
-            this.lblTérminoDoIntervalo.Size = new System.Drawing.Size(230, 28);
+            this.lblTérminoDoIntervalo.Size = new System.Drawing.Size(102, 28);
             this.lblTérminoDoIntervalo.TabIndex = 605;
-            this.lblTérminoDoIntervalo.Text = "_ _ / _ _ / _ _ _ _ 00:00";
+            this.lblTérminoDoIntervalo.Text = "00:00:00";
             this.lblTérminoDoIntervalo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblSaídaDoIntervalo1
+            // lblTérminoDoIntervalo1
             // 
-            this.lblSaídaDoIntervalo1.AutoSize = true;
-            this.lblSaídaDoIntervalo1.BackColor = System.Drawing.Color.Transparent;
-            this.lblSaídaDoIntervalo1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSaídaDoIntervalo1.ForeColor = System.Drawing.Color.Black;
-            this.lblSaídaDoIntervalo1.Location = new System.Drawing.Point(488, 114);
-            this.lblSaídaDoIntervalo1.Name = "lblSaídaDoIntervalo1";
-            this.lblSaídaDoIntervalo1.Size = new System.Drawing.Size(151, 19);
-            this.lblSaídaDoIntervalo1.TabIndex = 604;
-            this.lblSaídaDoIntervalo1.Text = "Término do Intervalo";
+            this.lblTérminoDoIntervalo1.AutoSize = true;
+            this.lblTérminoDoIntervalo1.BackColor = System.Drawing.Color.Transparent;
+            this.lblTérminoDoIntervalo1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTérminoDoIntervalo1.ForeColor = System.Drawing.Color.Black;
+            this.lblTérminoDoIntervalo1.Location = new System.Drawing.Point(380, 179);
+            this.lblTérminoDoIntervalo1.Name = "lblTérminoDoIntervalo1";
+            this.lblTérminoDoIntervalo1.Size = new System.Drawing.Size(151, 19);
+            this.lblTérminoDoIntervalo1.TabIndex = 604;
+            this.lblTérminoDoIntervalo1.Text = "Término do Intervalo";
             // 
             // lblInícioDoIntervalo
             // 
@@ -143,34 +142,24 @@
             this.lblInícioDoIntervalo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblInícioDoIntervalo.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInícioDoIntervalo.ForeColor = System.Drawing.Color.Black;
-            this.lblInícioDoIntervalo.Location = new System.Drawing.Point(35, 248);
+            this.lblInícioDoIntervalo.Location = new System.Drawing.Point(198, 147);
             this.lblInícioDoIntervalo.Name = "lblInícioDoIntervalo";
-            this.lblInícioDoIntervalo.Size = new System.Drawing.Size(230, 28);
+            this.lblInícioDoIntervalo.Size = new System.Drawing.Size(102, 28);
             this.lblInícioDoIntervalo.TabIndex = 603;
-            this.lblInícioDoIntervalo.Text = "_ _ / _ _ / _ _ _ _ 00:00";
+            this.lblInícioDoIntervalo.Text = "00:00:00";
             this.lblInícioDoIntervalo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblEntradaDoIntervalo1
+            // lblInícioDoIntervalo1
             // 
-            this.lblEntradaDoIntervalo1.AutoSize = true;
-            this.lblEntradaDoIntervalo1.BackColor = System.Drawing.Color.Transparent;
-            this.lblEntradaDoIntervalo1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEntradaDoIntervalo1.ForeColor = System.Drawing.Color.Black;
-            this.lblEntradaDoIntervalo1.Location = new System.Drawing.Point(72, 280);
-            this.lblEntradaDoIntervalo1.Name = "lblEntradaDoIntervalo1";
-            this.lblEntradaDoIntervalo1.Size = new System.Drawing.Size(132, 19);
-            this.lblEntradaDoIntervalo1.TabIndex = 602;
-            this.lblEntradaDoIntervalo1.Text = "Início do Intervalo";
-            // 
-            // lblHorárioData
-            // 
-            this.lblHorárioData.AutoSize = true;
-            this.lblHorárioData.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHorárioData.ForeColor = System.Drawing.Color.Black;
-            this.lblHorárioData.Location = new System.Drawing.Point(488, 7);
-            this.lblHorárioData.Name = "lblHorárioData";
-            this.lblHorárioData.Size = new System.Drawing.Size(0, 20);
-            this.lblHorárioData.TabIndex = 601;
+            this.lblInícioDoIntervalo1.AutoSize = true;
+            this.lblInícioDoIntervalo1.BackColor = System.Drawing.Color.Transparent;
+            this.lblInícioDoIntervalo1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInícioDoIntervalo1.ForeColor = System.Drawing.Color.Black;
+            this.lblInícioDoIntervalo1.Location = new System.Drawing.Point(183, 179);
+            this.lblInícioDoIntervalo1.Name = "lblInícioDoIntervalo1";
+            this.lblInícioDoIntervalo1.Size = new System.Drawing.Size(132, 19);
+            this.lblInícioDoIntervalo1.TabIndex = 602;
+            this.lblInícioDoIntervalo1.Text = "Início do Intervalo";
             // 
             // lblInício
             // 
@@ -179,24 +168,24 @@
             this.lblInício.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblInício.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInício.ForeColor = System.Drawing.Color.Black;
-            this.lblInício.Location = new System.Drawing.Point(35, 82);
+            this.lblInício.Location = new System.Drawing.Point(12, 147);
             this.lblInício.Name = "lblInício";
-            this.lblInício.Size = new System.Drawing.Size(230, 28);
+            this.lblInício.Size = new System.Drawing.Size(102, 28);
             this.lblInício.TabIndex = 600;
-            this.lblInício.Text = "_ _ / _ _ / _ _ _ _ 00:00";
+            this.lblInício.Text = "00:00:00";
             this.lblInício.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblEntrada1
+            // lblInício1
             // 
-            this.lblEntrada1.AutoSize = true;
-            this.lblEntrada1.BackColor = System.Drawing.Color.Transparent;
-            this.lblEntrada1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEntrada1.ForeColor = System.Drawing.Color.Black;
-            this.lblEntrada1.Location = new System.Drawing.Point(127, 114);
-            this.lblEntrada1.Name = "lblEntrada1";
-            this.lblEntrada1.Size = new System.Drawing.Size(46, 19);
-            this.lblEntrada1.TabIndex = 599;
-            this.lblEntrada1.Text = "Início";
+            this.lblInício1.AutoSize = true;
+            this.lblInício1.BackColor = System.Drawing.Color.Transparent;
+            this.lblInício1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInício1.ForeColor = System.Drawing.Color.Black;
+            this.lblInício1.Location = new System.Drawing.Point(39, 179);
+            this.lblInício1.Name = "lblInício1";
+            this.lblInício1.Size = new System.Drawing.Size(46, 19);
+            this.lblInício1.TabIndex = 599;
+            this.lblInício1.Text = "Início";
             // 
             // dataGridView1
             // 
@@ -227,7 +216,6 @@
             // 
             this.DataHora.Enabled = true;
             this.DataHora.Interval = 1000;
-            this.DataHora.Tick += new System.EventHandler(this.DataHora_Tick);
             // 
             // frmEmployeeTimeCard
             // 
@@ -238,6 +226,7 @@
             this.Controls.Add(this.panel);
             this.Controls.Add(this.lblCartãoDePonto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmEmployeeTimeCard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee Time Card";
@@ -254,14 +243,13 @@
         private System.Windows.Forms.Panel panel;
         private System.Windows.Forms.Button btnBaterPonto;
         private System.Windows.Forms.Label lblTérmino;
-        private System.Windows.Forms.Label lblSaída1;
+        private System.Windows.Forms.Label lbTérmino1;
         private System.Windows.Forms.Label lblTérminoDoIntervalo;
-        private System.Windows.Forms.Label lblSaídaDoIntervalo1;
+        private System.Windows.Forms.Label lblTérminoDoIntervalo1;
         private System.Windows.Forms.Label lblInícioDoIntervalo;
-        private System.Windows.Forms.Label lblEntradaDoIntervalo1;
-        private System.Windows.Forms.Label lblHorárioData;
+        private System.Windows.Forms.Label lblInícioDoIntervalo1;
         private System.Windows.Forms.Label lblInício;
-        private System.Windows.Forms.Label lblEntrada1;
+        private System.Windows.Forms.Label lblInício1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label lblCartãoDePonto;
         private System.Windows.Forms.Timer DataHora;

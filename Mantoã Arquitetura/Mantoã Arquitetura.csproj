@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hammer.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
@@ -215,6 +218,12 @@
     <Compile Include="Screens\Manager\CRM\frmRegisterCustomer.Designer.cs">
       <DependentUpon>frmRegisterCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screens\Manager\CRM\frmEmailSending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\CRM\frmEmailSending.Designer.cs">
+      <DependentUpon>frmEmailSending.cs</DependentUpon>
+    </Compile>
     <Compile Include="Screens\Manager\Financial\frmCashflow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -390,6 +399,9 @@
     <EmbeddedResource Include="Screens\Manager\CRM\frmRegisterCustomer.resx">
       <DependentUpon>frmRegisterCustomer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\CRM\frmEmailSending.resx">
+      <DependentUpon>frmEmailSending.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Screens\Manager\Financial\frmCashflow.resx">
       <DependentUpon>frmCashflow.cs</DependentUpon>
     </EmbeddedResource>
@@ -558,6 +570,7 @@
       <DependentUpon>MantoaDB.edmx</DependentUpon>
       <LastGenOutput>MantoaDB.cs</LastGenOutput>
     </Content>
+    <Content Include="hammer.ico" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

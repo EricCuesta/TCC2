@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDeleteSupplier));
             this.panel = new System.Windows.Forms.Panel();
             this.mtxtCPF = new System.Windows.Forms.MaskedTextBox();
             this.mtxtCNPJ = new System.Windows.Forms.MaskedTextBox();
@@ -663,6 +664,7 @@
             this.Controls.Add(this.panel);
             this.Controls.Add(this.lblDeletarFornecedor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmDeleteSupplier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Delete Supplier";
