@@ -76,7 +76,6 @@
     <Compile Include="Business\ClientBusiness.cs" />
     <Compile Include="Business\CNAEBusiness.cs" />
     <Compile Include="Business\CPPBusiness.cs" />
-    <Compile Include="Business\CRMBusiness.cs" />
     <Compile Include="Business\DepartmentBusiness.cs" />
     <Compile Include="Business\DiscountsBusiness.cs" />
     <Compile Include="Business\EmployeesBusiness.cs" />
@@ -85,7 +84,6 @@
     <Compile Include="Business\FunctionBusiness.cs" />
     <Compile Include="Business\PointsBusiness.cs" />
     <Compile Include="Business\ProviderBusiness.cs" />
-    <Compile Include="Business\SaleBusiness.cs" />
     <Compile Include="Business\SupplyBusiness.cs" />
     <Compile Include="Business\TimeCardBusiness.cs" />
     <Compile Include="CorreioApi\CorreioApi.cs" />
@@ -95,7 +93,6 @@
     <Compile Include="Database\ClientDatabase.cs" />
     <Compile Include="Database\CNAEDatabase.cs" />
     <Compile Include="Database\CPPDatabase.cs" />
-    <Compile Include="Database\CRMDatabase.cs" />
     <Compile Include="Database\DepartmentDatabase.cs" />
     <Compile Include="Database\DiscountsDatabase.cs" />
     <Compile Include="Database\EmployeesDatabase.cs" />
@@ -133,9 +130,6 @@
     <Compile Include="Database\Entities\tb_cpp.cs">
       <DependentUpon>MantoaDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\Entities\tb_crm.cs">
-      <DependentUpon>MantoaDB.tt</DependentUpon>
-    </Compile>
     <Compile Include="Database\Entities\tb_department.cs">
       <DependentUpon>MantoaDB.tt</DependentUpon>
     </Compile>
@@ -154,19 +148,10 @@
     <Compile Include="Database\Entities\tb_function.cs">
       <DependentUpon>MantoaDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\Entities\tb_iten.cs">
-      <DependentUpon>MantoaDB.tt</DependentUpon>
-    </Compile>
     <Compile Include="Database\Entities\tb_points.cs">
       <DependentUpon>MantoaDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\Entities\tb_product.cs">
-      <DependentUpon>MantoaDB.tt</DependentUpon>
-    </Compile>
     <Compile Include="Database\Entities\tb_provider.cs">
-      <DependentUpon>MantoaDB.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Database\Entities\tb_sale.cs">
       <DependentUpon>MantoaDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Database\Entities\tb_supply.cs">
@@ -179,7 +164,6 @@
     <Compile Include="Database\FunctionDatabase.cs" />
     <Compile Include="Database\PointsDatabase.cs" />
     <Compile Include="Database\ProviderDatabase.cs" />
-    <Compile Include="Database\SaleDatabase.cs" />
     <Compile Include="Database\SupplyDatabase.cs" />
     <Compile Include="Database\TimeCardDatabase.cs" />
     <Compile Include="Model\EmployeesModel.cs" />
