@@ -33,8 +33,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.12\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Regex, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Regex.1.0.0.0\lib\net20\System.Regex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,14 +67,304 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Business\AccountBusiness.cs" />
+    <Compile Include="Business\BankAccountBusiness.cs" />
+    <Compile Include="Business\BenefitsBusiness.cs" />
+    <Compile Include="Business\ClientBusiness.cs" />
+    <Compile Include="Business\CNAEBusiness.cs" />
+    <Compile Include="Business\CPPBusiness.cs" />
+    <Compile Include="Business\CRMBusiness.cs" />
+    <Compile Include="Business\DepartmentBusiness.cs" />
+    <Compile Include="Business\DiscountsBusiness.cs" />
+    <Compile Include="Business\EmployeesBusiness.cs" />
+    <Compile Include="Business\EnterpriseBusiness.cs" />
+    <Compile Include="Business\FinancialBusiness.cs" />
+    <Compile Include="Business\FunctionBusiness.cs" />
+    <Compile Include="Business\PointsBusiness.cs" />
+    <Compile Include="Business\ProviderBusiness.cs" />
+    <Compile Include="Business\SaleBusiness.cs" />
+    <Compile Include="Business\SupplyBusiness.cs" />
+    <Compile Include="Business\TimeCardBusiness.cs" />
+    <Compile Include="CorreioApi\CorreioApi.cs" />
+    <Compile Include="Database\AccountDatabase.cs" />
+    <Compile Include="Database\BankAccountDatabase.cs" />
+    <Compile Include="Database\BenefitsDatabase.cs" />
+    <Compile Include="Database\ClientDatabase.cs" />
+    <Compile Include="Database\CNAEDatabase.cs" />
+    <Compile Include="Database\CPPDatabase.cs" />
+    <Compile Include="Database\CRMDatabase.cs" />
+    <Compile Include="Database\DepartmentDatabase.cs" />
+    <Compile Include="Database\DiscountsDatabase.cs" />
+    <Compile Include="Database\EmployeesDatabase.cs" />
+    <Compile Include="Database\EnterpriseDatabase.cs" />
+    <Compile Include="Database\Entities\MantoaDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MantoaDB.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Database\Entities\MantoaDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MantoaDB.tt</DependentUpon>
     </Compile>
+    <Compile Include="Database\Entities\MantoaDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MantoaDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_account.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_bankaccount.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_benefits.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_client.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_cnae.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_cpp.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_crm.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_department.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_discounts.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_employees.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_enterprise.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_financial.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_function.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_iten.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_points.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_product.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_provider.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_sale.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_supply.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Entities\tb_timecard.cs">
+      <DependentUpon>MantoaDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\FinancialDatabase.cs" />
+    <Compile Include="Database\FunctionDatabase.cs" />
+    <Compile Include="Database\PointsDatabase.cs" />
+    <Compile Include="Database\ProviderDatabase.cs" />
+    <Compile Include="Database\SaleDatabase.cs" />
+    <Compile Include="Database\SupplyDatabase.cs" />
+    <Compile Include="Database\TimeCardDatabase.cs" />
+    <Compile Include="Model\EmployeesModel.cs" />
+    <Compile Include="Model\LoginModel.cs" />
+    <Compile Include="Model\PayrollModel.cs" />
+    <Compile Include="Model\UsuarioLogado.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\Employee\frmEmployeeTimeCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Employee\frmEmployeeTimeCard.Designer.cs">
+      <DependentUpon>frmEmployeeTimeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\CRM\frmChangeCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\CRM\frmChangeCustomer.Designer.cs">
+      <DependentUpon>frmChangeCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\CRM\frmConsultCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\CRM\frmConsultCustomer.Designer.cs">
+      <DependentUpon>frmConsultCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\CRM\frmDeleteClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\CRM\frmDeleteClient.Designer.cs">
+      <DependentUpon>frmDeleteClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\CRM\frmRegisterCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\CRM\frmRegisterCustomer.Designer.cs">
+      <DependentUpon>frmRegisterCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Financial\frmCashflow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Financial\frmCashflow.Designer.cs">
+      <DependentUpon>frmCashflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Financial\frmChangeAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Financial\frmChangeAccount.Designer.cs">
+      <DependentUpon>frmChangeAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Financial\frmDeleteAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Financial\frmDeleteAccount.Designer.cs">
+      <DependentUpon>frmDeleteAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Financial\frmQueryAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Financial\frmQueryAccount.Designer.cs">
+      <DependentUpon>frmQueryAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Financial\frmRegisterAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Financial\frmRegisterAccount.Designer.cs">
+      <DependentUpon>frmRegisterAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmChangeEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmChangeEmployee.Designer.cs">
+      <DependentUpon>frmChangeEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmChangeEmployee1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmChangeEmployee1.Designer.cs">
+      <DependentUpon>frmChangeEmployee1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmConsultEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmConsultEmployee.Designer.cs">
+      <DependentUpon>frmConsultEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmConsultTimeCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmConsultTimeCard.Designer.cs">
+      <DependentUpon>frmConsultTimeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmDismissEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmDismissEmployee.Designer.cs">
+      <DependentUpon>frmDismissEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmPayroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmPayroll.Designer.cs">
+      <DependentUpon>frmPayroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmRegisterEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmRegisterEmployee.Designer.cs">
+      <DependentUpon>frmRegisterEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmRegisterEmployee1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\HumanResources\frmRegisterEmployee1.Designer.cs">
+      <DependentUpon>frmRegisterEmployee1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Login\frmRecovery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Login\frmRecovery.Designer.cs">
+      <DependentUpon>frmRecovery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Login\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Login\frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Provider\frmChangeProvider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Provider\frmChangeProvider.Designer.cs">
+      <DependentUpon>frmChangeProvider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Provider\frmConsultSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Provider\frmConsultSupplier.Designer.cs">
+      <DependentUpon>frmConsultSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Provider\frmDeleteSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Provider\frmDeleteSupplier.Designer.cs">
+      <DependentUpon>frmDeleteSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Provider\frmRegisterSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Provider\frmRegisterSupplier.Designer.cs">
+      <DependentUpon>frmRegisterSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Stock\frmChangeSupplies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Stock\frmChangeSupplies.Designer.cs">
+      <DependentUpon>frmChangeSupplies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Stock\frmConsultSupplies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Stock\frmConsultSupplies.Designer.cs">
+      <DependentUpon>frmConsultSupplies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Stock\frmDeleteSupplies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Stock\frmDeleteSupplies.Designer.cs">
+      <DependentUpon>frmDeleteSupplies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Manager\Stock\frmRegisterSupplies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Manager\Stock\frmRegisterSupplies.Designer.cs">
+      <DependentUpon>frmRegisterSupplies.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,7 +373,106 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Screens\Employee\frmEmployeeTimeCard.resx">
+      <DependentUpon>frmEmployeeTimeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\CRM\frmChangeCustomer.resx">
+      <DependentUpon>frmChangeCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\CRM\frmConsultCustomer.resx">
+      <DependentUpon>frmConsultCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\CRM\frmDeleteClient.resx">
+      <DependentUpon>frmDeleteClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\CRM\frmRegisterCustomer.resx">
+      <DependentUpon>frmRegisterCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Financial\frmCashflow.resx">
+      <DependentUpon>frmCashflow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Financial\frmChangeAccount.resx">
+      <DependentUpon>frmChangeAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Financial\frmDeleteAccount.resx">
+      <DependentUpon>frmDeleteAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Financial\frmQueryAccount.resx">
+      <DependentUpon>frmQueryAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Financial\frmRegisterAccount.resx">
+      <DependentUpon>frmRegisterAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\HumanResources\frmChangeEmployee.resx">
+      <DependentUpon>frmChangeEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\HumanResources\frmChangeEmployee1.resx">
+      <DependentUpon>frmChangeEmployee1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\HumanResources\frmConsultEmployee.resx">
+      <DependentUpon>frmConsultEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\HumanResources\frmConsultTimeCard.resx">
+      <DependentUpon>frmConsultTimeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\HumanResources\frmDismissEmployee.resx">
+      <DependentUpon>frmDismissEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\HumanResources\frmPayroll.resx">
+      <DependentUpon>frmPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\HumanResources\frmRegisterEmployee.resx">
+      <DependentUpon>frmRegisterEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\HumanResources\frmRegisterEmployee1.resx">
+      <DependentUpon>frmRegisterEmployee1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Login\frmRecovery.resx">
+      <DependentUpon>frmRecovery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Login\frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Provider\frmChangeProvider.resx">
+      <DependentUpon>frmChangeProvider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Provider\frmConsultSupplier.resx">
+      <DependentUpon>frmConsultSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Provider\frmDeleteSupplier.resx">
+      <DependentUpon>frmDeleteSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Provider\frmRegisterSupplier.resx">
+      <DependentUpon>frmRegisterSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Stock\frmChangeSupplies.resx">
+      <DependentUpon>frmChangeSupplies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Stock\frmConsultSupplies.resx">
+      <DependentUpon>frmConsultSupplies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Stock\frmDeleteSupplies.resx">
+      <DependentUpon>frmDeleteSupplies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Manager\Stock\frmRegisterSupplies.resx">
+      <DependentUpon>frmRegisterSupplies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="Database\Entities\MantoaDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MantoaDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Database\Entities\MantoaDB.edmx.diagram">
+      <DependentUpon>MantoaDB.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +485,82 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\CRM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E-mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estoque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fechar01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fechar02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Financeiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimizar01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimizar02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Senha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suprimentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Visto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Visto01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltar01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltar02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo DSD Novo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\Entities\MantoaDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MantoaDB.edmx</DependentUpon>
+      <LastGenOutput>MantoaDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Database\Entities\MantoaDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MantoaDB.edmx</DependentUpon>
+      <LastGenOutput>MantoaDB.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

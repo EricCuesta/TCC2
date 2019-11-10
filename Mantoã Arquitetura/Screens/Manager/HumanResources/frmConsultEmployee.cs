@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Mantoã_Arquitetura
+namespace Mantoã_Arquitetura.Screens.Manager.HumanResources
 {
-    public partial class Form1 : Form
+    public partial class frmConsultEmployee : Form
     {
-        public Form1()
+        public frmConsultEmployee()
         {
             InitializeComponent();
         }
+
     }
 }
