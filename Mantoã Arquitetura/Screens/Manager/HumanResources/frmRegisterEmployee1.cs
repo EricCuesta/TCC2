@@ -79,6 +79,26 @@ namespace Mantoã_Arquitetura.Screens.Manager.HumanResources
                 busbank.Inserir(tbbank);
 
                 MessageBox.Show("Funcionário cadastrado com sucesso");
+
+                Model.EmployeesModel.firstName = string.Empty;
+                Model.EmployeesModel.lastName = string.Empty;
+                Model.EmployeesModel.RG = string.Empty;
+                Model.EmployeesModel.CPF = string.Empty;
+                Model.EmployeesModel.dependents = 0;
+                Model.EmployeesModel.birth = Convert.ToString(DateTime.Now);
+                Model.EmployeesModel.CEP = string.Empty;
+                Model.EmployeesModel.note = string.Empty;
+                Model.EmployeesModel.address = string.Empty;
+                Model.EmployeesModel.email = string.Empty;
+                Model.EmployeesModel.cellphone = string.Empty;
+                Model.EmployeesModel.tellphone = string.Empty;
+                Model.EmployeesModel.password = string.Empty;
+                Model.EmployeesModel.manager = Convert.ToBoolean(string.Empty);
+                Model.EmployeesModel.employeer = Convert.ToBoolean(string.Empty);
+                Model.EmployeesModel.RH = Convert.ToBoolean(string.Empty);
+                Model.EmployeesModel.financial = Convert.ToBoolean(string.Empty);
+                Model.EmployeesModel.stock = Convert.ToBoolean(string.Empty);
+                Model.EmployeesModel.CRM = Convert.ToBoolean(string.Empty);
             }
             catch (ArgumentException ex)
             {
@@ -88,25 +108,6 @@ namespace Mantoã_Arquitetura.Screens.Manager.HumanResources
             {
                 MessageBox.Show("Ocorreu um erro!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            Model.EmployeesModel.firstName = string.Empty;
-            Model.EmployeesModel.lastName = string.Empty;
-            Model.EmployeesModel.RG = string.Empty;
-            Model.EmployeesModel.CPF = string.Empty;
-            Model.EmployeesModel.dependents = 0;
-            Model.EmployeesModel.birth = Convert.ToString(DateTime.Now);
-            Model.EmployeesModel.CEP = string.Empty;
-            Model.EmployeesModel.note = string.Empty;
-            Model.EmployeesModel.address = string.Empty;
-            Model.EmployeesModel.email = string.Empty;
-            Model.EmployeesModel.cellphone = string.Empty;
-            Model.EmployeesModel.tellphone = string.Empty;
-            Model.EmployeesModel.password = string.Empty;
-            Model.EmployeesModel.manager = Convert.ToBoolean(string.Empty);
-            Model.EmployeesModel.employeer = Convert.ToBoolean(string.Empty);
-            Model.EmployeesModel.RH = Convert.ToBoolean(string.Empty);
-            Model.EmployeesModel.financial = Convert.ToBoolean(string.Empty);
-            Model.EmployeesModel.stock = Convert.ToBoolean(string.Empty);
-            Model.EmployeesModel.CRM = Convert.ToBoolean(string.Empty);
         }
 
         private void imgVoltar_Click(object sender, EventArgs e)

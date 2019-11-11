@@ -147,9 +147,9 @@
             this.lblhrs.BackColor = System.Drawing.Color.Transparent;
             this.lblhrs.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhrs.ForeColor = System.Drawing.Color.Lime;
-            this.lblhrs.Location = new System.Drawing.Point(505, 21);
+            this.lblhrs.Location = new System.Drawing.Point(516, 18);
             this.lblhrs.Name = "lblhrs";
-            this.lblhrs.Size = new System.Drawing.Size(138, 20);
+            this.lblhrs.Size = new System.Drawing.Size(127, 20);
             this.lblhrs.TabIndex = 490;
             this.lblhrs.Text = "Hrs: __:__:__";
             this.lblhrs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -159,9 +159,9 @@
             this.lblUsuário.BackColor = System.Drawing.Color.Transparent;
             this.lblUsuário.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuário.ForeColor = System.Drawing.Color.Lime;
-            this.lblUsuário.Location = new System.Drawing.Point(3, 21);
+            this.lblUsuário.Location = new System.Drawing.Point(3, 20);
             this.lblUsuário.Name = "lblUsuário";
-            this.lblUsuário.Size = new System.Drawing.Size(496, 20);
+            this.lblUsuário.Size = new System.Drawing.Size(515, 19);
             this.lblUsuário.TabIndex = 489;
             this.lblUsuário.Text = "Usuário:";
             this.lblUsuário.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -234,7 +234,7 @@
             this.panelSubMenuCRM.Controls.Add(this.btnConsultarCliente);
             this.panelSubMenuCRM.Controls.Add(this.btnCadastrarCliente);
             this.panelSubMenuCRM.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuCRM.Location = new System.Drawing.Point(0, 933);
+            this.panelSubMenuCRM.Location = new System.Drawing.Point(0, 963);
             this.panelSubMenuCRM.Name = "panelSubMenuCRM";
             this.panelSubMenuCRM.Size = new System.Drawing.Size(223, 164);
             this.panelSubMenuCRM.TabIndex = 26;
@@ -384,7 +384,7 @@
             this.panelCRM.Controls.Add(this.btnCRM);
             this.panelCRM.Controls.Add(this.panel19);
             this.panelCRM.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelCRM.Location = new System.Drawing.Point(0, 901);
+            this.panelCRM.Location = new System.Drawing.Point(0, 931);
             this.panelCRM.Name = "panelCRM";
             this.panelCRM.Size = new System.Drawing.Size(223, 32);
             this.panelCRM.TabIndex = 25;
@@ -428,7 +428,7 @@
             this.panelSubMenuEstoque.Controls.Add(this.panel36);
             this.panelSubMenuEstoque.Controls.Add(this.btnCadastrarSuprimentos);
             this.panelSubMenuEstoque.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuEstoque.Location = new System.Drawing.Point(0, 771);
+            this.panelSubMenuEstoque.Location = new System.Drawing.Point(0, 801);
             this.panelSubMenuEstoque.Name = "panelSubMenuEstoque";
             this.panelSubMenuEstoque.Size = new System.Drawing.Size(223, 130);
             this.panelSubMenuEstoque.TabIndex = 24;
@@ -550,7 +550,7 @@
             this.panelEstoque.Controls.Add(this.btnEstoque);
             this.panelEstoque.Controls.Add(this.panel18);
             this.panelEstoque.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelEstoque.Location = new System.Drawing.Point(0, 739);
+            this.panelEstoque.Location = new System.Drawing.Point(0, 769);
             this.panelEstoque.Name = "panelEstoque";
             this.panelEstoque.Size = new System.Drawing.Size(223, 32);
             this.panelEstoque.TabIndex = 23;
@@ -594,7 +594,7 @@
             this.panelSubMenuFornecedor.Controls.Add(this.panel44);
             this.panelSubMenuFornecedor.Controls.Add(this.btnCadastrarFornecedor);
             this.panelSubMenuFornecedor.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuFornecedor.Location = new System.Drawing.Point(0, 609);
+            this.panelSubMenuFornecedor.Location = new System.Drawing.Point(0, 639);
             this.panelSubMenuFornecedor.Name = "panelSubMenuFornecedor";
             this.panelSubMenuFornecedor.Size = new System.Drawing.Size(223, 130);
             this.panelSubMenuFornecedor.TabIndex = 28;
@@ -716,7 +716,7 @@
             this.panelFornecedor.Controls.Add(this.btnFornecedor);
             this.panelFornecedor.Controls.Add(this.panel10);
             this.panelFornecedor.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFornecedor.Location = new System.Drawing.Point(0, 577);
+            this.panelFornecedor.Location = new System.Drawing.Point(0, 607);
             this.panelFornecedor.Name = "panelFornecedor";
             this.panelFornecedor.Size = new System.Drawing.Size(223, 32);
             this.panelFornecedor.TabIndex = 27;
@@ -762,7 +762,7 @@
             this.panelSubMenuFinanceiro.Controls.Add(this.btnDeletarConta);
             this.panelSubMenuFinanceiro.Controls.Add(this.btnConsultarConta);
             this.panelSubMenuFinanceiro.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuFinanceiro.Location = new System.Drawing.Point(0, 414);
+            this.panelSubMenuFinanceiro.Location = new System.Drawing.Point(0, 444);
             this.panelSubMenuFinanceiro.Name = "panelSubMenuFinanceiro";
             this.panelSubMenuFinanceiro.Size = new System.Drawing.Size(223, 163);
             this.panelSubMenuFinanceiro.TabIndex = 22;
@@ -912,7 +912,7 @@
             this.panelFinanceiro.Controls.Add(this.btnFinanceiro);
             this.panelFinanceiro.Controls.Add(this.panel8);
             this.panelFinanceiro.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFinanceiro.Location = new System.Drawing.Point(0, 382);
+            this.panelFinanceiro.Location = new System.Drawing.Point(0, 412);
             this.panelFinanceiro.Name = "panelFinanceiro";
             this.panelFinanceiro.Size = new System.Drawing.Size(223, 32);
             this.panelFinanceiro.TabIndex = 21;
@@ -949,7 +949,7 @@
             this.panelCartãoDePonto.Controls.Add(this.panel22);
             this.panelCartãoDePonto.Controls.Add(this.btnCartãoDePonto);
             this.panelCartãoDePonto.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelCartãoDePonto.Location = new System.Drawing.Point(0, 350);
+            this.panelCartãoDePonto.Location = new System.Drawing.Point(0, 380);
             this.panelCartãoDePonto.Name = "panelCartãoDePonto";
             this.panelCartãoDePonto.Size = new System.Drawing.Size(223, 32);
             this.panelCartãoDePonto.TabIndex = 29;
@@ -998,7 +998,7 @@
             this.panelSubMenuRecursosHumanos.Controls.Add(this.btnFolhaDePagamento);
             this.panelSubMenuRecursosHumanos.Controls.Add(this.btnCadastrarFuncionário);
             this.panelSubMenuRecursosHumanos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuRecursosHumanos.Location = new System.Drawing.Point(0, 152);
+            this.panelSubMenuRecursosHumanos.Location = new System.Drawing.Point(0, 182);
             this.panelSubMenuRecursosHumanos.Name = "panelSubMenuRecursosHumanos";
             this.panelSubMenuRecursosHumanos.Size = new System.Drawing.Size(223, 198);
             this.panelSubMenuRecursosHumanos.TabIndex = 20;
@@ -1176,7 +1176,7 @@
             this.panelRecursosHumanos.Controls.Add(this.btnRecursosHumanos);
             this.panelRecursosHumanos.Controls.Add(this.panel1);
             this.panelRecursosHumanos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelRecursosHumanos.Location = new System.Drawing.Point(0, 120);
+            this.panelRecursosHumanos.Location = new System.Drawing.Point(0, 150);
             this.panelRecursosHumanos.Name = "panelRecursosHumanos";
             this.panelRecursosHumanos.Size = new System.Drawing.Size(223, 32);
             this.panelRecursosHumanos.TabIndex = 19;
@@ -1215,15 +1215,14 @@
             this.imgLogotipo.Image = global::Mantoã_Arquitetura.Properties.Resources.Logo_DSD_Novo;
             this.imgLogotipo.Location = new System.Drawing.Point(0, 0);
             this.imgLogotipo.Name = "imgLogotipo";
-            this.imgLogotipo.Size = new System.Drawing.Size(223, 120);
+            this.imgLogotipo.Size = new System.Drawing.Size(223, 150);
             this.imgLogotipo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgLogotipo.TabIndex = 18;
             this.imgLogotipo.TabStop = false;
             // 
             // panelContedor
             // 
-            this.panelContedor.BackColor = System.Drawing.Color.White;
-            this.panelContedor.BackgroundImage = global::Mantoã_Arquitetura.Properties.Resources.Fundo;
+            this.panelContedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
             this.panelContedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panelContedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContedor.Location = new System.Drawing.Point(240, 41);

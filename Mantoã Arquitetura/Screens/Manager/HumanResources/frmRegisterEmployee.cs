@@ -29,9 +29,11 @@ namespace Mantoã_Arquitetura.Screens.Manager.HumanResources
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
-            this.InserirModel();
+            try
+            {
+                this.InserirModel();
 
-            Database.Entities.tb_employees employees = new Database.Entities.tb_employees
+                Database.Entities.tb_employees employees = new Database.Entities.tb_employees
                 {
                     nm_firstName = txtNome.Text.Trim(),
                     nm_lastName = txtSobrenome.Text.Trim(),
@@ -59,8 +61,18 @@ namespace Mantoã_Arquitetura.Screens.Manager.HumanResources
                 Business.EmployeesBusiness db = new Business.EmployeesBusiness();
                 db.Inserir(employees);
 
-            frmMenu.Current.openContedor(new frmRegisterEmployee1());
+                frmMenu.Current.openContedor(new frmRegisterEmployee1());
+            }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show(ex.Message, "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Ocorreu um erro!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
         private void InserirModel()
         {
             Model.EmployeesModel.firstName = txtNome.Text;

@@ -80,11 +80,11 @@
             // 
             // txtSenha
             // 
-            this.txtSenha.BackColor = System.Drawing.Color.LimeGreen;
+            this.txtSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSenha.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.ForeColor = System.Drawing.Color.Black;
-            this.txtSenha.Location = new System.Drawing.Point(63, 27);
+            this.txtSenha.ForeColor = System.Drawing.Color.White;
+            this.txtSenha.Location = new System.Drawing.Point(63, 24);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(331, 19);
             this.txtSenha.TabIndex = 250;
@@ -94,7 +94,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Black;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(63, 49);
@@ -126,10 +126,10 @@
             // 
             // mtxtCelular
             // 
-            this.mtxtCelular.BackColor = System.Drawing.Color.White;
+            this.mtxtCelular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.mtxtCelular.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.mtxtCelular.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtxtCelular.ForeColor = System.Drawing.Color.Black;
+            this.mtxtCelular.ForeColor = System.Drawing.Color.White;
             this.mtxtCelular.Location = new System.Drawing.Point(75, 5);
             this.mtxtCelular.Mask = "(000) 00000-0000";
             this.mtxtCelular.Name = "mtxtCelular";
@@ -140,7 +140,7 @@
             // 
             this.lblCelular.AutoSize = true;
             this.lblCelular.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCelular.ForeColor = System.Drawing.Color.Black;
+            this.lblCelular.ForeColor = System.Drawing.Color.White;
             this.lblCelular.Location = new System.Drawing.Point(8, 5);
             this.lblCelular.Name = "lblCelular";
             this.lblCelular.Size = new System.Drawing.Size(61, 19);
@@ -149,12 +149,12 @@
             // 
             // btnVerificar
             // 
-            this.btnVerificar.BackColor = System.Drawing.Color.Transparent;
+            this.btnVerificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnVerificar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVerificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVerificar.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerificar.ForeColor = System.Drawing.Color.Black;
-            this.btnVerificar.Location = new System.Drawing.Point(127, 458);
+            this.btnVerificar.Location = new System.Drawing.Point(127, 452);
             this.btnVerificar.Name = "btnVerificar";
             this.btnVerificar.Size = new System.Drawing.Size(131, 36);
             this.btnVerificar.TabIndex = 328;
@@ -164,11 +164,11 @@
             // 
             // btnAlterar
             // 
-            this.btnAlterar.BackColor = System.Drawing.Color.Transparent;
+            this.btnAlterar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnAlterar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlterar.Location = new System.Drawing.Point(127, 458);
+            this.btnAlterar.Location = new System.Drawing.Point(127, 452);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(131, 36);
             this.btnAlterar.TabIndex = 326;
@@ -191,10 +191,10 @@
             // 
             // mtxtCPF
             // 
-            this.mtxtCPF.BackColor = System.Drawing.Color.White;
+            this.mtxtCPF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.mtxtCPF.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.mtxtCPF.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtxtCPF.ForeColor = System.Drawing.Color.Black;
+            this.mtxtCPF.ForeColor = System.Drawing.Color.White;
             this.mtxtCPF.Location = new System.Drawing.Point(53, 5);
             this.mtxtCPF.Mask = "000000000/00";
             this.mtxtCPF.Name = "mtxtCPF";
@@ -205,7 +205,7 @@
             // 
             this.lblCPF.AutoSize = true;
             this.lblCPF.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCPF.ForeColor = System.Drawing.Color.Black;
+            this.lblCPF.ForeColor = System.Drawing.Color.White;
             this.lblCPF.Location = new System.Drawing.Point(8, 5);
             this.lblCPF.Name = "lblCPF";
             this.lblCPF.Size = new System.Drawing.Size(39, 19);
@@ -228,7 +228,7 @@
             // 
             this.lblRG.AutoSize = true;
             this.lblRG.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRG.ForeColor = System.Drawing.Color.Black;
+            this.lblRG.ForeColor = System.Drawing.Color.White;
             this.lblRG.Location = new System.Drawing.Point(8, 5);
             this.lblRG.Name = "lblRG";
             this.lblRG.Size = new System.Drawing.Size(33, 19);
@@ -237,10 +237,10 @@
             // 
             // mtxtRG
             // 
-            this.mtxtRG.BackColor = System.Drawing.Color.White;
+            this.mtxtRG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.mtxtRG.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.mtxtRG.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtxtRG.ForeColor = System.Drawing.Color.Black;
+            this.mtxtRG.ForeColor = System.Drawing.Color.White;
             this.mtxtRG.Location = new System.Drawing.Point(47, 5);
             this.mtxtRG.Mask = "00.000.000-0";
             this.mtxtRG.Name = "mtxtRG";
@@ -262,7 +262,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(9, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(114, 15);
@@ -302,7 +302,7 @@
             // imgVoltar
             // 
             this.imgVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgVoltar.Image = global::Mantoã_Arquitetura.Properties.Resources.Voltar;
+            this.imgVoltar.Image = global::Mantoã_Arquitetura.Properties.Resources.Voltar01;
             this.imgVoltar.Location = new System.Drawing.Point(4, 5);
             this.imgVoltar.Name = "imgVoltar";
             this.imgVoltar.Size = new System.Drawing.Size(25, 25);
@@ -318,7 +318,7 @@
             this.imgFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgFechar.BackColor = System.Drawing.Color.Transparent;
             this.imgFechar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgFechar.Image = global::Mantoã_Arquitetura.Properties.Resources.Fechar;
+            this.imgFechar.Image = global::Mantoã_Arquitetura.Properties.Resources.Fechar01;
             this.imgFechar.Location = new System.Drawing.Point(371, 5);
             this.imgFechar.Name = "imgFechar";
             this.imgFechar.Size = new System.Drawing.Size(25, 25);
@@ -334,7 +334,7 @@
             this.imgMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgMinimizar.BackColor = System.Drawing.Color.Transparent;
             this.imgMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgMinimizar.Image = global::Mantoã_Arquitetura.Properties.Resources.Minimizar;
+            this.imgMinimizar.Image = global::Mantoã_Arquitetura.Properties.Resources.Minimizar01;
             this.imgMinimizar.Location = new System.Drawing.Point(340, 5);
             this.imgMinimizar.Name = "imgMinimizar";
             this.imgMinimizar.Size = new System.Drawing.Size(25, 25);
@@ -349,7 +349,7 @@
             // 
             this.lblAlterarSenha.AutoSize = true;
             this.lblAlterarSenha.Font = new System.Drawing.Font("Century", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAlterarSenha.ForeColor = System.Drawing.Color.Black;
+            this.lblAlterarSenha.ForeColor = System.Drawing.Color.White;
             this.lblAlterarSenha.Location = new System.Drawing.Point(107, 3);
             this.lblAlterarSenha.Name = "lblAlterarSenha";
             this.lblAlterarSenha.Size = new System.Drawing.Size(183, 28);
@@ -360,8 +360,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::Mantoã_Arquitetura.Properties.Resources.Fundo;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(400, 500);
             this.Controls.Add(this.panelAlterarSenha);
             this.Controls.Add(this.panelSubMenuCelular);
