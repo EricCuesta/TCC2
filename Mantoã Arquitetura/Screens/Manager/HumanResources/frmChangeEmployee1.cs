@@ -16,5 +16,10 @@ namespace Mantoã_Arquitetura.Screens.Manager.HumanResources
         {
             InitializeComponent();
         }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

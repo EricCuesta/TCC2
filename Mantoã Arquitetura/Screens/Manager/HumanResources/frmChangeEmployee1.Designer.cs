@@ -294,6 +294,7 @@
             this.btnSalvar.TabIndex = 692;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // mtxtTérminoIntervalo
             // 

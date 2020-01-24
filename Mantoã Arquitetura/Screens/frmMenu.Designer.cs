@@ -255,7 +255,7 @@
             this.btnEnviarEmail.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnEnviarEmail.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnEnviarEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnviarEmail.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviarEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarEmail.ForeColor = System.Drawing.Color.White;
             this.btnEnviarEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEnviarEmail.Location = new System.Drawing.Point(25, 132);
@@ -307,7 +307,7 @@
             this.btnDeletarCliente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnDeletarCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnDeletarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeletarCliente.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeletarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeletarCliente.ForeColor = System.Drawing.Color.White;
             this.btnDeletarCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDeletarCliente.Location = new System.Drawing.Point(25, 100);
@@ -327,7 +327,7 @@
             this.btnAlterarCliente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnAlterarCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnAlterarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterarCliente.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlterarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterarCliente.ForeColor = System.Drawing.Color.White;
             this.btnAlterarCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlterarCliente.Location = new System.Drawing.Point(25, 68);
@@ -347,7 +347,7 @@
             this.btnConsultarCliente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnConsultarCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnConsultarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConsultarCliente.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarCliente.ForeColor = System.Drawing.Color.White;
             this.btnConsultarCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConsultarCliente.Location = new System.Drawing.Point(25, 36);
@@ -367,7 +367,7 @@
             this.btnCadastrarCliente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnCadastrarCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCadastrarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadastrarCliente.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarCliente.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastrarCliente.Location = new System.Drawing.Point(25, 4);
@@ -397,7 +397,7 @@
             this.btnCRM.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnCRM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCRM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCRM.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCRM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCRM.ForeColor = System.Drawing.Color.White;
             this.btnCRM.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCRM.Location = new System.Drawing.Point(4, 2);
@@ -449,7 +449,7 @@
             this.btnDeletarSuprimentos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnDeletarSuprimentos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnDeletarSuprimentos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeletarSuprimentos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeletarSuprimentos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeletarSuprimentos.ForeColor = System.Drawing.Color.White;
             this.btnDeletarSuprimentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDeletarSuprimentos.Location = new System.Drawing.Point(25, 102);
@@ -485,7 +485,7 @@
             this.btnConsultarSuprimentos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnConsultarSuprimentos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnConsultarSuprimentos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConsultarSuprimentos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarSuprimentos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarSuprimentos.ForeColor = System.Drawing.Color.White;
             this.btnConsultarSuprimentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConsultarSuprimentos.Location = new System.Drawing.Point(25, 38);
@@ -505,7 +505,7 @@
             this.btnAlterarSuprimentos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnAlterarSuprimentos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnAlterarSuprimentos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterarSuprimentos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlterarSuprimentos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterarSuprimentos.ForeColor = System.Drawing.Color.White;
             this.btnAlterarSuprimentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlterarSuprimentos.Location = new System.Drawing.Point(25, 70);
@@ -533,7 +533,7 @@
             this.btnCadastrarSuprimentos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnCadastrarSuprimentos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCadastrarSuprimentos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadastrarSuprimentos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarSuprimentos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarSuprimentos.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarSuprimentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastrarSuprimentos.Location = new System.Drawing.Point(25, 6);
@@ -563,7 +563,7 @@
             this.btnEstoque.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnEstoque.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnEstoque.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstoque.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoque.ForeColor = System.Drawing.Color.White;
             this.btnEstoque.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEstoque.Location = new System.Drawing.Point(4, 2);
@@ -615,7 +615,7 @@
             this.btnDeletarFornecedor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnDeletarFornecedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnDeletarFornecedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeletarFornecedor.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeletarFornecedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeletarFornecedor.ForeColor = System.Drawing.Color.White;
             this.btnDeletarFornecedor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDeletarFornecedor.Location = new System.Drawing.Point(25, 102);
@@ -651,7 +651,7 @@
             this.btnConsultarFornecedor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnConsultarFornecedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnConsultarFornecedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConsultarFornecedor.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarFornecedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarFornecedor.ForeColor = System.Drawing.Color.White;
             this.btnConsultarFornecedor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConsultarFornecedor.Location = new System.Drawing.Point(25, 38);
@@ -671,7 +671,7 @@
             this.btnAlterarFornecedor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnAlterarFornecedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnAlterarFornecedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterarFornecedor.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlterarFornecedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterarFornecedor.ForeColor = System.Drawing.Color.White;
             this.btnAlterarFornecedor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlterarFornecedor.Location = new System.Drawing.Point(25, 70);
@@ -699,7 +699,7 @@
             this.btnCadastrarFornecedor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnCadastrarFornecedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCadastrarFornecedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadastrarFornecedor.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarFornecedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarFornecedor.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarFornecedor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastrarFornecedor.Location = new System.Drawing.Point(25, 6);
@@ -729,7 +729,7 @@
             this.btnFornecedor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnFornecedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnFornecedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFornecedor.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFornecedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFornecedor.ForeColor = System.Drawing.Color.White;
             this.btnFornecedor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFornecedor.Location = new System.Drawing.Point(4, 2);
@@ -815,7 +815,7 @@
             this.btnCadastrarConta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnCadastrarConta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCadastrarConta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadastrarConta.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarConta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarConta.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarConta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastrarConta.Location = new System.Drawing.Point(22, 36);
@@ -835,7 +835,7 @@
             this.btnFluxoDeCaixa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnFluxoDeCaixa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnFluxoDeCaixa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFluxoDeCaixa.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFluxoDeCaixa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFluxoDeCaixa.ForeColor = System.Drawing.Color.White;
             this.btnFluxoDeCaixa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFluxoDeCaixa.Location = new System.Drawing.Point(25, 4);
@@ -855,7 +855,7 @@
             this.btnAlterarConta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnAlterarConta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnAlterarConta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterarConta.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlterarConta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterarConta.ForeColor = System.Drawing.Color.White;
             this.btnAlterarConta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlterarConta.Location = new System.Drawing.Point(25, 100);
@@ -875,7 +875,7 @@
             this.btnDeletarConta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnDeletarConta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnDeletarConta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeletarConta.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeletarConta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeletarConta.ForeColor = System.Drawing.Color.White;
             this.btnDeletarConta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDeletarConta.Location = new System.Drawing.Point(25, 134);
@@ -895,7 +895,7 @@
             this.btnConsultarConta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnConsultarConta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnConsultarConta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConsultarConta.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarConta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarConta.ForeColor = System.Drawing.Color.White;
             this.btnConsultarConta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConsultarConta.Location = new System.Drawing.Point(25, 68);
@@ -925,7 +925,7 @@
             this.btnFinanceiro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnFinanceiro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnFinanceiro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFinanceiro.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinanceiro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFinanceiro.ForeColor = System.Drawing.Color.White;
             this.btnFinanceiro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFinanceiro.Location = new System.Drawing.Point(4, 2);
@@ -970,7 +970,7 @@
             this.btnCartãoDePonto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnCartãoDePonto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCartãoDePonto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCartãoDePonto.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCartãoDePonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCartãoDePonto.ForeColor = System.Drawing.Color.White;
             this.btnCartãoDePonto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCartãoDePonto.Location = new System.Drawing.Point(25, 3);
@@ -1019,7 +1019,7 @@
             this.btnConsultarCartãoDePonto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnConsultarCartãoDePonto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnConsultarCartãoDePonto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConsultarCartãoDePonto.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarCartãoDePonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarCartãoDePonto.ForeColor = System.Drawing.Color.White;
             this.btnConsultarCartãoDePonto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConsultarCartãoDePonto.Location = new System.Drawing.Point(25, 166);
@@ -1055,7 +1055,7 @@
             this.btnDemitirFuncionário.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnDemitirFuncionário.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnDemitirFuncionário.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDemitirFuncionário.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDemitirFuncionário.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDemitirFuncionário.ForeColor = System.Drawing.Color.White;
             this.btnDemitirFuncionário.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDemitirFuncionário.Location = new System.Drawing.Point(25, 102);
@@ -1091,7 +1091,7 @@
             this.btnConsultarFuncionário.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnConsultarFuncionário.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnConsultarFuncionário.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConsultarFuncionário.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarFuncionário.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarFuncionário.ForeColor = System.Drawing.Color.White;
             this.btnConsultarFuncionário.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConsultarFuncionário.Location = new System.Drawing.Point(25, 38);
@@ -1111,7 +1111,7 @@
             this.btnAlterarFuncionário.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnAlterarFuncionário.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnAlterarFuncionário.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterarFuncionário.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlterarFuncionário.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterarFuncionário.ForeColor = System.Drawing.Color.White;
             this.btnAlterarFuncionário.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlterarFuncionário.Location = new System.Drawing.Point(25, 70);
@@ -1139,7 +1139,7 @@
             this.btnFolhaDePagamento.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnFolhaDePagamento.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnFolhaDePagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFolhaDePagamento.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFolhaDePagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFolhaDePagamento.ForeColor = System.Drawing.Color.White;
             this.btnFolhaDePagamento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFolhaDePagamento.Location = new System.Drawing.Point(25, 134);
@@ -1159,7 +1159,7 @@
             this.btnCadastrarFuncionário.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnCadastrarFuncionário.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnCadastrarFuncionário.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadastrarFuncionário.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarFuncionário.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarFuncionário.ForeColor = System.Drawing.Color.White;
             this.btnCadastrarFuncionário.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastrarFuncionário.Location = new System.Drawing.Point(25, 6);
@@ -1189,7 +1189,7 @@
             this.btnRecursosHumanos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnRecursosHumanos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnRecursosHumanos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRecursosHumanos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecursosHumanos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRecursosHumanos.ForeColor = System.Drawing.Color.White;
             this.btnRecursosHumanos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRecursosHumanos.Location = new System.Drawing.Point(4, 2);
@@ -1229,6 +1229,7 @@
             this.panelContedor.Name = "panelContedor";
             this.panelContedor.Size = new System.Drawing.Size(710, 459);
             this.panelContedor.TabIndex = 18;
+            this.panelContedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContedor_Paint);
             // 
             // Horas
             // 

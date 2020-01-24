@@ -312,5 +312,10 @@ namespace Mantoã_Arquitetura.Screens
             openContedor(new Manager.CRM.frmEmailSending());
             HideSubMenu();
         }
+
+        private void panelContedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
